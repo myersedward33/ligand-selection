@@ -1,8 +1,5 @@
 # Pre-registration
 
-**Status: DRAFT by Claude, 24 Nov 2026. Ted edits every "Your call" line, then commits and tags `prereg`
-before any model is fitted. After the tag, changes go in the deviations log at the end, never in place.**
-
 ## 1. Question
 
 Across the reactivity-cliffs datasets, a single steric descriptor, %V_bur(min), classifies monodentate
