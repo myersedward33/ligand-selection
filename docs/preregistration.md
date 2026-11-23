@@ -88,6 +88,13 @@ The baseline reproduces if, for at least 10 of the 11 primary datasets, the refi
 **Success criterion:** H1. H2–H5 are reported whatever they show. A result that "the single descriptor
 is as good as anything" is a finding, not a failure.
 
+## 8. Things that are fixed now
+
+- Random seed 20261125 for every resampling step.
+- Stability selection: 500 bootstrap refits of the elastic-net model; a descriptor counts as selected
+  above 80% selection frequency with a consistent sign.
+- The external test set is not loaded by any modelling code until after the `frozen` tag.
+
 ## 9. Deviations log
 
 Any change after the `prereg` tag goes here with its date and reason.
