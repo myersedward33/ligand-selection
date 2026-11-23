@@ -1,0 +1,7 @@
+kraken_ids,canonical_smiles,n
+22 1079 1080 1081 1082,CP(C)C,5
+369 2045,CCCCc1c(F)c(F)c(-c2c(C(C)C)cc(C(C)C)c(-c3cccc(OC)c3P(C34CC5CC(CC(C5)C3)C4)C34CC5CC(CC(C5)C3)C4)c2C(C)C)c(F)c1F,2
+1170 1175,COC(=O)c1ccc(P(Oc2ccc(C(C)(C)C)cc2C(C)(C)C)Oc2ccc(C(C)(C)C)cc2C(C)(C)C)cc1,2
+820 821,COc1ccc2ccccc2c1-c1c(-p2oc3ccc4ccccc4c3c3c(ccc4ccccc43)o2)ccc2ccccc12,2
+305 1282,Oc1cccc(P(c2ccccc2)c2ccccc2)n1,2
+915 1036,c1ccc(OP(n2cccc2)n2cccc2)cc1,2

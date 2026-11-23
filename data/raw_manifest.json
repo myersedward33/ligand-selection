@@ -36,6 +36,11 @@
       "bytes": 53674218,
       "sha256": "a6184f54d38ebb9ea4c7ab178739af170c3a94a905f39c5865d99964802a5771"
     },
+    "jacs2022_si_S2_p12_manual": {
+      "path": "manual/jacs2022_SI_tableS2_pageS12.csv",
+      "bytes": 1212,
+      "sha256": "33c05fe83f8d6d94511ec5f8c3695779fa8cb31874bd6854a4c0f88ad49d898a"
+    },
     "tepid_preprint": {
       "path": "TEPid2023.pdf",
       "bytes": 955263,

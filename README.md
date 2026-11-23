@@ -12,6 +12,7 @@ the analysis is complete.
 ## Run it
 
 ```bash
+brew install poppler   # provides pdftotext, used to read the SI tables
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt && pip install -e .
 make verify   # checks the raw files against data/raw_manifest.json

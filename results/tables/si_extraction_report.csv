@@ -1,0 +1,18 @@
+source,si_table,datasets,rows_found,rows_expected,expectation_from,names_rebuilt,ok
+cliffs_si,S1,cliffs_I,34,34,SI text: 19 ligands from Wu et al. plus 15 added,0,True
+cliffs_si,S2,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_RS1,90,90,main text: 90 ligands in the HTE set,0,True
+cliffs_si,S9,cliffs_VII,55,55,parsed; checked against Kraken in step 9,1,True
+cliffs_si,S10,cliffs_VIII,53,53,parsed; checked against Kraken in step 9,0,True
+cliffs_si,S11,cliffs_IX,30,30,parsed; checked against Kraken in step 9,0,True
+cliffs_si,S12,cliffs_X,28,28,parsed; checked against Kraken in step 9,0,True
+cliffs_si,S13,cliffs_RS2,30,30,parsed; checked against Kraken in step 9,0,True
+cliffs_si,S14,cliffs_RS3,29,29,parsed; checked against Kraken in step 9,0,True
+cliffs_si,S15,cliffs_XI,30,30,parsed; checked against Kraken in step 9,1,True
+cliffs_si,S16,cliffs_XII,71,71,parsed; checked against Kraken in step 9,6,True
+cliffs_si,S17,cliffs_XIII,79,79,parsed; checked against Kraken in step 9,0,True
+cliffs_si,S18,cliffs_XIV,14,14,parsed; checked against Kraken in step 9,0,True
+jacs2022_si,S1,j22_I j22_Ib j22_II,95,95,Table S4: TP+TN+FP+FN = 95 for Reaction I,3,True
+jacs2022_si,S2,j22_III,17,17,first page only; the other 26 rows are hand-transcribed (page S12 has no text),0,True
+jacs2022_si,S3,j22_IV,16,16,parsed; ligandless control row dropped,0,True
+combined,j22_III,j22_III,43,43,Table S4: TP+TN+FP+FN = 43,0,True
+cliffs_si,S7+S8,thresholds,24,24,12 datasets x 2 class weights,0,True

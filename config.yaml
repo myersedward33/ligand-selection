@@ -25,6 +25,9 @@ files:
   jacs2022_si:
     path: NewmanStonebrakerJACS2022/SI.pdf
     source: "Supporting information to JACS 2022, 144, 19635"
+  jacs2022_si_S2_p12_manual:
+    path: manual/jacs2022_SI_tableS2_pageS12.csv
+    source: "Hand transcription of JACS 2022 SI Table S2, page S12 (vector text, not extractable); see the file header"
   tepid_preprint:
     path: TEPid2023.pdf
     source: "Stevens et al., ChemRxiv 2023, https://doi.org/10.26434/chemrxiv-2023-wjnpj"
