@@ -1,0 +1,45 @@
+{
+  "registered": "2026-11-23",
+  "files": {
+    "kraken_2025": {
+      "path": "kraken_library.xlsx",
+      "bytes": 3371435,
+      "sha256": "d76ac4dcf47c5efc35de4ff745f1aa157ad5f164415458a3d27eed0168f5b0fc"
+    },
+    "kraken_2021_descriptors": {
+      "path": "KrakenJACS2021/ja1c09718_si_002/descriptors.xlsx",
+      "bytes": 11122898,
+      "sha256": "6959fbbe838303408e8c19d2b2149b8c61455669f952b38120b514a74ec5dbaf"
+    },
+    "kraken_2021_model_scores": {
+      "path": "KrakenJACS2021/ja1c09718_si_002/descriptormodel_scores.xlsx",
+      "bytes": 182603,
+      "sha256": "cde47f2168d4370df86a7ef47828d058d0fac861b590bf8fda20792c236ca314"
+    },
+    "cliffs_main": {
+      "path": "ChemRXIV/chemrxiv.14388557.v1.pdf",
+      "bytes": 4861498,
+      "sha256": "100240218bf766268fbf169373b8b3dedbe067ad8d3d875ffb2412d57cca2804"
+    },
+    "cliffs_si": {
+      "path": "ChemRXIV/vbur_threshold_si_f.pdf",
+      "bytes": 23480945,
+      "sha256": "72113dbdee0c3591e63769ba6f054d4cdc276a3535b4298633b3770e9367ae45"
+    },
+    "jacs2022_main": {
+      "path": "NewmanStonebrakerJACS2022/NewmanStonebrakerJACS2022.pdf",
+      "bytes": 5721951,
+      "sha256": "bab89b72f9ee0e8e885b88874dd7cb5aab02eb3ba5f852476ab0bfe83687a3e7"
+    },
+    "jacs2022_si": {
+      "path": "NewmanStonebrakerJACS2022/SI.pdf",
+      "bytes": 53674218,
+      "sha256": "a6184f54d38ebb9ea4c7ab178739af170c3a94a905f39c5865d99964802a5771"
+    },
+    "tepid_preprint": {
+      "path": "TEPid2023.pdf",
+      "bytes": 955263,
+      "sha256": "dec7bb49a200e1d202d8f3a4445e0524d4e7512b642c7740c7fb18a74f08c50b"
+    }
+  }
+}

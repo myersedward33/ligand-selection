@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligsel"
+version = "0.1.0"
+description = "Multivariate Kraken descriptors versus the %V_bur(min) classifier for phosphine ligand performance"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["numpy", "pandas", "scikit-learn", "scipy", "statsmodels", "matplotlib", "openpyxl", "rdkit", "pyyaml"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

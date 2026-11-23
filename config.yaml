@@ -1,0 +1,30 @@
+# Where the raw files live. Paths are relative to raw_dir, which is relative to
+# the repository root unless absolute. Override with the LIGSEL_RAW_DIR env var.
+# Raw files are never copied into the repository (see data/README.md).
+raw_dir: ".."
+
+files:
+  kraken_2025:
+    path: kraken_library.xlsx
+    source: "Kraken descriptor library, 2025 release (Kraken_descriptors_2025_LATEST), https://kraken.cs.toronto.edu"
+  kraken_2021_descriptors:
+    path: KrakenJACS2021/ja1c09718_si_002/descriptors.xlsx
+    source: "Gensch et al., JACS 2022, 144, 1205, SI file ja1c09718_si_002, https://doi.org/10.1021/jacs.1c09718"
+  kraken_2021_model_scores:
+    path: KrakenJACS2021/ja1c09718_si_002/descriptormodel_scores.xlsx
+    source: "Gensch et al., JACS 2022, SI file ja1c09718_si_002"
+  cliffs_main:
+    path: ChemRXIV/chemrxiv.14388557.v1.pdf
+    source: "Newman-Stonebraker et al., ChemRxiv 2021, https://doi.org/10.26434/chemrxiv.14388557.v1"
+  cliffs_si:
+    path: ChemRXIV/vbur_threshold_si_f.pdf
+    source: "Supporting information to the ChemRxiv preprint above"
+  jacs2022_main:
+    path: NewmanStonebrakerJACS2022/NewmanStonebrakerJACS2022.pdf
+    source: "Newman-Stonebraker et al., JACS 2022, 144, 19635, https://doi.org/10.1021/jacs.2c09840"
+  jacs2022_si:
+    path: NewmanStonebrakerJACS2022/SI.pdf
+    source: "Supporting information to JACS 2022, 144, 19635"
+  tepid_preprint:
+    path: TEPid2023.pdf
+    source: "Stevens et al., ChemRxiv 2023, https://doi.org/10.26434/chemrxiv-2023-wjnpj"

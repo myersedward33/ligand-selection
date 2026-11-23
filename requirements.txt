@@ -1,0 +1,11 @@
+# Pinned versions the results were produced with. Python 3.10+.
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy==1.15.3
+statsmodels==0.15.0
+matplotlib==3.10.9
+openpyxl==3.1.5
+rdkit==2026.9.2
+PyYAML==6.0.4
+pytest==9.2.0

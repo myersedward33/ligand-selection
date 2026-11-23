@@ -1,0 +1,15 @@
+# Raw and derived data stay out of git: they are licensed (CC BY-NC-ND, ACS terms).
+data/interim/*
+data/processed/*
+!data/*/.gitkeep
+*.xlsx
+*.pdf
+*.csv
+!results/tables/*.csv
+# Python and tooling
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
