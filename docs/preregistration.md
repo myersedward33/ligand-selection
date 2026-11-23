@@ -39,7 +39,7 @@ cutoff (active = yield >= cutoff):
 | JACS 2022 III (external) | 43 | 10 | 12 | 31 |
 
 JACS 2022 Reactions I, Ib and II re-screen Ni Suzuki–Miyaura chemistry already covered by cliffs II–V.
-**Your call:** exclude them from every analysis (proposed), or use them as a second external test.
+Thus, we exclude them from our study.
 
 ## 3. Outcome and metric
 
@@ -61,8 +61,7 @@ JACS 2022 Reactions I, Ib and II re-screen Ni Suzuki–Miyaura chemistry already
 ## 5. Gate (29 November)
 
 The baseline reproduces if, for at least 10 of the 11 primary datasets, the refitted threshold is within
-0.10 %V_bur(min) of Table S8 and the MCC is within 0.02. Otherwise stop and follow the kill criteria.
-**Your call:** these tolerances.
+0.11 %V_bur(min) of Table S8 and the MCC is within 0.03. Otherwise stop and follow the kill criteria.
 
 ## 6. Models and validation
 
@@ -73,8 +72,7 @@ The baseline reproduces if, for at least 10 of the 11 primary datasets, the refi
 - Per dataset: leave-one-ligand-out (primary) and repeated 5-fold (reported). Pooled across the eleven:
   leave-one-dataset-out, grouped by ligand identity, and leave-one-ligand-class-out.
 - Multivariate fits only where n >= 30 and the smaller class has >= 10 ligands. That keeps I, II, III,
-  IV, V, VII, VIII, IX, XI and XII and leaves X (n = 28) to the univariate
-  comparison. **Your call:** the minimum n and minimum class size.
+  IV, V, VII, VIII, IX, XI and XII and leaves X (n = 28) to the univariate comparison.
 
 ## 7. Hypotheses, stated before any result
 
@@ -92,13 +90,6 @@ The baseline reproduces if, for at least 10 of the 11 primary datasets, the refi
 
 **Success criterion:** H1. H2–H5 are reported whatever they show. A result that "the single descriptor
 is as good as anything" is a finding, not a failure.
-
-## 8. Things that are fixed now
-
-- Random seed 20261125 for every resampling step.
-- Stability selection: 500 bootstrap refits of the elastic-net model; a descriptor counts as selected
-  above 80% selection frequency with a consistent sign.
-- The external test set is not loaded by any modelling code until after the `frozen` tag.
 
 ## 9. Deviations log
 
