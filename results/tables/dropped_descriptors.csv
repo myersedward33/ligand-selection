@@ -1,0 +1,6 @@
+column,reason
+vbur_vbur_vburminconf,identical to vbur_vbur_min
+vbur_ovbur_min_min,near-constant: one value on 99% of ligands
+vbur_ovbur_min_vburminconf,near-constant: one value on 98% of ligands
+vbur_ovtot_min_min,near-constant: one value on 98% of ligands
+vbur_ovtot_min_vburminconf,near-constant: one value on 98% of ligands

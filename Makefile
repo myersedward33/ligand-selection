@@ -1,9 +1,12 @@
 # Every table and figure is rebuilt from the raw files by `make all`.
 PY ?= python
 
-.PHONY: all register verify kraken extract test clean
+.PHONY: all register verify kraken extract join features characterise baseline tepid test clean
 
-all: verify kraken extract
+TEPID_PY ?= $(HOME)/venv-tepid/bin/python
+TEPID_DIR ?= $(HOME)/ext/TEPid
+
+all: verify kraken extract join features characterise baseline
 
 
 register:   ## record checksums of the raw files (run once per snapshot)
@@ -17,6 +20,21 @@ kraken:     ## step 3: units, column families, 2021-2025 ID crosswalk
 
 extract:    ## step 4: SI yield and threshold tables
 	$(PY) -m ligsel.extract_si
+
+join:       ## step 9: SI ligands to Kraken 2025 by structure; stops below min_match_rate
+	$(PY) -m ligsel.join
+
+features:   ## step 13: the five feature views and dropped columns
+	$(PY) -m ligsel.features
+
+tepid:      ## step 11 (optional, separate env): TEPid predictions, see scripts/run_tepid.py
+	$(TEPID_PY) scripts/run_tepid.py $(TEPID_DIR) .
+
+characterise:  ## steps 11-12: correlation figure, TEP figure (needs make tepid first)
+	$(PY) -m ligsel.characterise
+
+baseline:   ## step 14: reproduce the published thresholds (the gate)
+	$(PY) -m ligsel.baseline
 
 test:
 	$(PY) -m pytest -q

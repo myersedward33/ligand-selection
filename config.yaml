@@ -31,3 +31,36 @@ files:
   tepid_preprint:
     path: TEPid2023.pdf
     source: "Stevens et al., ChemRxiv 2023, https://doi.org/10.26434/chemrxiv-2023-wjnpj"
+
+# Dataset roles from docs/preregistration.md. y_cut: yield (%) at or above which a ligand counts as
+# active. Published cutoffs come from cliffs SI Table S8 and JACS 2022 SI Table S4; controls without
+# a published cutoff use 10%, the most common one (an assumption, stated in the writeup).
+min_match_rate: 0.95
+datasets:
+  cliffs_I:    {role: primary, metal: Ni, y_cut: 10}
+  cliffs_II:   {role: primary, metal: Ni, y_cut: 10}
+  cliffs_III:  {role: primary, metal: Ni, y_cut: 5}
+  cliffs_IV:   {role: primary, metal: Ni, y_cut: 5}
+  cliffs_V:    {role: primary, metal: Ni, y_cut: 20}
+  cliffs_VII:  {role: primary, metal: Pd, y_cut: 10}
+  cliffs_VIII: {role: primary, metal: Pd, y_cut: 10}
+  cliffs_IX:   {role: primary, metal: Pd, y_cut: 10}
+  cliffs_X:    {role: primary, metal: Pd, y_cut: 5}
+  cliffs_XI:   {role: primary, metal: Pd, y_cut: 30}
+  cliffs_XII:  {role: primary, metal: Pd, y_cut: 10}
+  cliffs_RS1:  {role: supplementary, metal: Ni, y_cut: 10}
+  cliffs_RS2:  {role: control, metal: Pd, y_cut: 10}
+  cliffs_RS3:  {role: control, metal: Pd, y_cut: 10}
+  cliffs_XIII: {role: control, metal: Pd, y_cut: 10}
+  cliffs_XIV:  {role: control, metal: Pd, y_cut: 10}
+  j22_IV:      {role: control, metal: Ni, y_cut: 24}
+  j22_III:     {role: external, metal: Ni, y_cut: 10}
+  j22_I:       {role: excluded, metal: Ni, y_cut: 10}
+  j22_Ib:      {role: excluded, metal: Ni, y_cut: 10}
+  j22_II:      {role: excluded, metal: Ni, y_cut: 20}
+
+# Gate tolerances from docs/preregistration.md section 5
+gate:
+  threshold_tol: 0.11   # %V_bur(min)
+  mcc_tol: 0.03
+  min_datasets_passing: 10   # of the 11 primary datasets

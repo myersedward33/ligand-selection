@@ -1,0 +1,4 @@
+set,n,median,mean,sd,q10,q90
+TEPid reference set (DFT),4703,2077.35,2078.08,9.87,2065.81,2091.76
+"Kraken DFT library, TEPid-predicted",1614,2065.39,2067.17,7.94,2058.7,2077.65
+"Modelled ligands, TEPid-predicted",199,2062.88,2064.71,7.09,2057.58,2076.2
