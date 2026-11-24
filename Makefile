@@ -1,7 +1,7 @@
 # Every table and figure is rebuilt from the raw files by `make all`.
 PY ?= python
 
-.PHONY: all register verify kraken extract join features characterise baseline models hypotheses splits selection controls tepid test clean
+.PHONY: all register verify kraken extract join features characterise baseline models hypotheses splits selection controls freeze external tepid test clean
 
 TEPID_PY ?= $(HOME)/venv-tepid/bin/python
 TEPID_DIR ?= $(HOME)/ext/TEPid
@@ -52,6 +52,12 @@ selection:  ## step 20a: stability selection (500 bootstraps) and best-pair choi
 
 controls:   ## step 20b: negative controls, 500-permutation nulls (H4)
 	$(PY) -m ligsel.controls
+
+freeze:     ## step 22: fit and freeze the external-test model (models/frozen_ni_pool.json); not part of all
+	$(PY) -m ligsel.freeze
+
+external:   ## step 23: score the frozen model ONCE on JACS 2022 III; refuses without the frozen tag
+	$(PY) -m ligsel.external
 
 test:
 	$(PY) -m pytest -q
