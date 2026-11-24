@@ -57,7 +57,7 @@ def load_dataset(name: str) -> tuple[pd.DataFrame, np.ndarray]:
     j = pd.read_csv(PROCESSED_DIR / "joined.csv")
     j = j[(j["dataset"] == name) & j["included"]]
     k = pd.read_csv(PROCESSED_DIR / "kraken_2025.csv.gz").set_index("kraken_id")
-    X = k.loc[j["id_2025"].astype(int).values].reset_index(drop=True)
+    X = k.loc[j["id_2025"].astype(int).values].reset_index()  # keeps kraken_id as a column
     return X, j["active"].astype(bool).astype(int).values
 
 

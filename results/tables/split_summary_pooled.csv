@@ -1,0 +1,10 @@
+scope,scheme,baseline_cv,pair_min_boltz,elastic_net,random_forest
+pool_Ni,group_ligand_5fold,0.415,0.4093,0.4464,0.5616
+pool_Ni,leave_class_out,0.3939,0.442,0.2025,0.3363
+pool_Ni,leave_dataset_out,0.4398,0.4154,0.6427,0.7306
+pool_Pd,group_ligand_5fold,0.4916,0.3407,0.3897,0.5583
+pool_Pd,leave_class_out,0.4627,0.0694,0.1994,0.2715
+pool_Pd,leave_dataset_out,0.4916,0.3888,0.41,0.4728
+pool_all11,group_ligand_5fold,0.1042,0.1066,0.2218,0.4395
+pool_all11,leave_class_out,0.0574,-0.1245,-0.0133,0.2746
+pool_all11,leave_dataset_out,0.0548,0.0768,0.3644,0.5968

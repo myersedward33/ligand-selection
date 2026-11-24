@@ -24,3 +24,12 @@ def test_baseline_code_reproduces_published_thresholds():
     for ds in ["cliffs_I", "cliffs_II", "cliffs_III", "cliffs_IV", "cliffs_V", "cliffs_VIII", "cliffs_X",
                "cliffs_XI", "cliffs_XII", "cliffs_RS1"]:
         assert abs(t.loc[ds, "threshold_kraken"] - t.loc[ds, "threshold_published"]) <= 0.01, ds
+
+
+def test_ligand_classes():
+    from ligsel.splits import ligand_class
+    assert ligand_class("c1ccc(cc1)P(c1ccccc1)c1ccccc1") == "triaryl"                        # PPh3
+    assert ligand_class("CC(C)(C)P(C(C)(C)C)C(C)(C)C") == "trialkyl"                          # PtBu3
+    assert ligand_class("c1ccc(cc1)OP(Oc1ccccc1)Oc1ccccc1") == "P-heteroatom"                 # P(OPh)3
+    assert ligand_class("CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1") == "biaryl"  # XPhos
+    assert ligand_class("CP(c1ccccc1)c1ccccc1") == "alkyl-aryl"                              # PMePh2

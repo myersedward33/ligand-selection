@@ -1,12 +1,12 @@
 # Every table and figure is rebuilt from the raw files by `make all`.
 PY ?= python
 
-.PHONY: all register verify kraken extract join features characterise baseline models hypotheses tepid test clean
+.PHONY: all register verify kraken extract join features characterise baseline models hypotheses splits tepid test clean
 
 TEPID_PY ?= $(HOME)/venv-tepid/bin/python
 TEPID_DIR ?= $(HOME)/ext/TEPid
 
-all: verify kraken extract join features characterise baseline models hypotheses
+all: verify kraken extract join features characterise baseline models hypotheses splits
 
 
 register:   ## record checksums of the raw files (run once per snapshot)
@@ -41,6 +41,10 @@ models:     ## step 17: the model ladder (resumable; about an hour on 4 cores)
 
 hypotheses: ## score H1-H3 from the ladder
 	$(PY) -m ligsel.summarise
+
+splits:     ## step 18: leave-class-out, pooled leave-dataset-out and grouped CV; ligand overlap
+	$(PY) -m ligsel.splits overlap
+	$(PY) -m ligsel.splits
 
 test:
 	$(PY) -m pytest -q
