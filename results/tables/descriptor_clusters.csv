@@ -48,7 +48,7 @@ Pint_P_min_boltz,55,Pint_P_min,boltz,dispersion,1
 Pint_P_max_boltz,95,Pint_P_max,boltz,dispersion,1
 volume_boltz,96,volume,boltz,steric,1
 surface_area_boltz,96,surface_area,boltz,steric,1
-sphericity_boltz,98,sphericity,boltz,molecular,1
+sphericity_boltz,98,sphericity,boltz,steric,1
 dipolemoment_boltz,7,dipolemoment,boltz,electrostatic,5
 dipolemoment_min,8,dipolemoment,min,electrostatic,5
 dipolemoment_max,5,dipolemoment,max,electrostatic,5

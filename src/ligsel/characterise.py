@@ -26,7 +26,7 @@ from ligsel.paths import PROCESSED_DIR, RESULTS_DIR, load_config
 SURFACE, INK, INK2 = "#fcfcfb", "#0b0b0b", "#52514e"
 SERIES = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6"]
 DIVERGING = LinearSegmentedColormap.from_list("blue_gray_red", ["#1c5cab", "#86b6ef", "#f0efec", "#ee9a99", "#b8302f"])
-FAMILY_ORDER = ["steric", "electronic", "electrostatic", "dispersion", "molecular", "solvation"]
+FAMILY_ORDER = ["steric", "electronic", "electrostatic", "dispersion", "solvation"]
 CLUSTER_RHO = 0.9
 
 

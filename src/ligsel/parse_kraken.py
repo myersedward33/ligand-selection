@@ -28,10 +28,10 @@ SUMMARIES = ("boltz", "min", "max", "delta", "vburminconf")
 ID_COLS = ("kraken_id", "smiles", "canonical_smiles", "inchikey")
 
 # Family of each property, by prefix. Reviewed by Ted in step 15 (23 Nov 2026): pyramidalisation
-# steric, vmin_r electronic, whole-molecule volume and surface area steric.
+# steric, vmin_r electronic, whole-molecule volume, surface area and sphericity steric.
 FAMILY_RULES = [
     ("sterimol_", "steric"), ("vbur_", "steric"), ("pyr_", "steric"),
-    ("volume", "steric"), ("surface_area", "steric"), ("sphericity", "molecular"),
+    ("volume", "steric"), ("surface_area", "steric"), ("sphericity", "steric"),
     ("Pint_", "dispersion"),
     ("dipolemoment", "electrostatic"), ("qpole", "electrostatic"),
     ("vmin_", "electronic"), ("fmo_", "electronic"), ("somo_", "electronic"),
