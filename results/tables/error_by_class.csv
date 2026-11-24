@@ -1,0 +1,11 @@
+class,model,predictions,error_rate,missed_active_rate,false_active_rate
+P-heteroatom,baseline_cv,31.0,0.516,0.25,0.609
+P-heteroatom,elastic_net,31.0,0.484,0.875,0.348
+alkyl-aryl,baseline_cv,132.0,0.167,0.066,0.39
+alkyl-aryl,elastic_net,132.0,0.189,0.11,0.366
+biaryl,baseline_cv,170.0,0.212,0.1,0.311
+biaryl,elastic_net,170.0,0.135,0.15,0.122
+trialkyl,baseline_cv,164.0,0.329,0.107,0.517
+trialkyl,elastic_net,164.0,0.317,0.28,0.348
+triaryl,baseline_cv,136.0,0.485,0.041,0.736
+triaryl,elastic_net,136.0,0.316,0.347,0.299

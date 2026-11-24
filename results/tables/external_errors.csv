@@ -1,0 +1,44 @@
+kraken_id,ligand,active,pct_vbur_min,class,buchwald_type,in_ni_pool,elastic_net_score,elastic_net,threshold_published
+89,t-BuBrettPhos,0,43.93,biaryl,True,True,-2.551,0,0
+104,JackiePhos,0,33.57,biaryl,True,True,-2.543,0,0
+42,JohnPhos,0,37.04,biaryl,True,False,-2.214,0,0
+281,t-BuDavePhos,0,36.65,biaryl,True,True,-2.119,0,0
+8,P(t-Bu)3,0,36.26,trialkyl,False,True,-2.105,0,0
+280,t-BuMePhos,0,36.88,biaryl,True,True,-2.1,0,0
+299,CataCXium PtB,0,51.74,biaryl,True,True,-1.906,0,0
+90,t-BuXPhos,0,56.73,biaryl,True,True,-1.878,0,0
+232,"P(3,5-CF3-Ph)3",0,28.12,triaryl,False,False,-1.113,0,1
+31,P(t-Bu)2Ph,0,35.15,alkyl-aryl,False,False,-0.97,0,0
+30,P(t-Bu)2Cy,0,34.28,trialkyl,False,True,-0.884,0,0
+102,BrettPhos,0,34.91,biaryl,True,False,-0.823,0,0
+15,P(2-OMe)3,0,33.06,triaryl,False,True,-0.446,0,0
+16,P(4CF3Ph)3,0,28.16,triaryl,False,False,-0.427,0,1
+14,PtBu2Me,0,31.54,trialkyl,False,True,-0.322,0,1
+13,tBuPPh2,0,30.08,alkyl-aryl,False,True,-0.247,0,1
+2,CPhos,0,32.59,biaryl,True,True,-0.098,0,0
+212,PhJohnPhos,0,29.3,biaryl,True,False,-0.049,0,1
+32,P(t-Bu)Cy2,0,32.03,trialkyl,False,True,0.232,1,0
+17,PPh3,0,28.22,triaryl,False,True,0.235,1,1
+10,CataCXium A,0,32.81,trialkyl,False,True,0.451,1,0
+252,P(i-Bu)3,0,31.1,trialkyl,False,True,0.752,1,1
+67,PCy2o-Tol,0,29.99,alkyl-aryl,False,False,0.766,1,1
+65,PBn3,0,28.46,trialkyl,False,True,0.867,1,1
+162,PCyPh2,0,27.96,alkyl-aryl,False,True,0.958,1,1
+11,PCy3,0,30.2,trialkyl,False,True,1.104,1,1
+68,PCy2Ph,0,28.84,alkyl-aryl,False,True,1.106,1,1
+566,DrewPhos,0,27.16,triaryl,False,True,1.354,1,1
+158,CyTyrannoPhos,0,27.69,alkyl-aryl,False,True,1.915,1,1
+159,TriceraPhos,0,27.81,alkyl-aryl,False,True,1.932,1,1
+183,PteroPhos,0,27.3,alkyl-aryl,False,True,2.248,1,1
+278,PhDavePhos,1,29.55,biaryl,True,False,-0.397,0,1
+3,SPhos,1,31.67,biaryl,True,True,-0.36,0,1
+277,MePhos,1,31.51,biaryl,True,True,-0.245,0,1
+4,RuPhos,1,30.86,biaryl,True,False,-0.233,0,1
+263,DavePhos,1,31.27,biaryl,True,False,-0.218,0,1
+1,XPhos,1,31.44,biaryl,True,True,-0.068,0,1
+311,CataCXium POMeCy,1,30.88,biaryl,True,True,-0.06,0,1
+314,CataCXium PInCy,1,30.88,biaryl,True,True,0.114,1,1
+5,CyJohnPhos,1,31.76,biaryl,True,True,0.115,1,1
+44,CataCXium PCy,1,31.57,biaryl,True,True,0.28,1,1
+862,MeJohnPhos,1,26.0,biaryl,True,True,0.64,1,1
+21,PEt3,1,24.4,trialkyl,False,True,0.933,1,1

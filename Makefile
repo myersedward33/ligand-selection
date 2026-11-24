@@ -1,7 +1,7 @@
 # Every table and figure is rebuilt from the raw files by `make all`.
 PY ?= python
 
-.PHONY: all register verify kraken extract join features characterise baseline models hypotheses splits selection controls freeze external tepid test clean
+.PHONY: all register verify kraken extract join features characterise baseline models hypotheses splits selection controls freeze external errors tepid test clean
 
 TEPID_PY ?= $(HOME)/venv-tepid/bin/python
 TEPID_DIR ?= $(HOME)/ext/TEPid
@@ -58,6 +58,9 @@ freeze:     ## step 22: fit and freeze the external-test model (models/frozen_ni
 
 external:   ## step 23: score the frozen model ONCE on JACS 2022 III; refuses without the frozen tag
 	$(PY) -m ligsel.external
+
+errors:     ## step 24: worst-predicted ligands, by ligand and by class, with structure figures
+	$(PY) -m ligsel.errors
 
 test:
 	$(PY) -m pytest -q

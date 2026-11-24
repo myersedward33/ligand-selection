@@ -1,0 +1,195 @@
+kraken_id,appearances,datasets,en_errors,baseline_errors,en_error_rate,baseline_error_rate,ligand,class,buchwald_type,pct_vbur_min
+251,6,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_VII cliffs_VIII,5,4,0.833,0.667,P(allyl)3,trialkyl,False,22.89
+79,7,cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII,5,3,0.714,0.429,P(i-Pr)3,trialkyl,False,28.95
+133,4,cliffs_II cliffs_III cliffs_IV cliffs_V,4,1,1.0,0.25,P(3-FPh)3,triaryl,False,28.14
+208,4,cliffs_II cliffs_III cliffs_IV cliffs_V,4,4,1.0,1.0,5-Ph-Benzophosphindole,triaryl,False,26.2
+243,4,cliffs_II cliffs_III cliffs_IV cliffs_V,4,4,1.0,1.0,"1,3,5-Triaza-7-phosphaadamantane (PTA)",trialkyl,False,21.33
+14,6,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_XI,4,2,0.667,0.333,PMe(t-Bu)2,trialkyl,False,31.54
+487,6,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_VII cliffs_VIII,4,4,0.667,0.667,PhP(4-PhC7H2F13)2,triaryl,False,27.42
+65,8,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII,4,1,0.5,0.125,PBn3,trialkyl,False,28.46
+10,9,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII cliffs_XI,4,2,0.444,0.222,CataCXium A,trialkyl,False,32.81
+13,4,cliffs_I cliffs_IX cliffs_VII cliffs_VIII,3,2,0.75,0.5,P(t-Bu)Ph2,alkyl-aryl,False,30.08
+176,4,cliffs_II cliffs_III cliffs_IV cliffs_V,3,3,0.75,0.75,"PCyp2(3,5-(2,4,6-(t-Bu)3-Ph)2-Ph)",alkyl-aryl,False,30.09
+180,4,cliffs_II cliffs_III cliffs_IV cliffs_V,3,3,0.75,0.75,"PCypMes(3,5-(t-Bu)2-Ph)",alkyl-aryl,False,29.64
+233,4,cliffs_II cliffs_III cliffs_IV cliffs_V,3,4,0.75,1.0,P(3-ClPh)3,triaryl,False,28.17
+22,5,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_XI,3,3,0.6,0.6,PMe3 HBF4,trialkyl,False,22.13
+32,5,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V,3,3,0.6,0.6,PCy2(t-Bu),trialkyl,False,32.03
+9,6,cliffs_I cliffs_IX cliffs_VII cliffs_VIII cliffs_XI cliffs_XII,3,0,0.5,0.0,P(o-tolyl)3,triaryl,False,34.38
+15,6,cliffs_I cliffs_IX cliffs_VII cliffs_VIII cliffs_XI cliffs_XII,3,2,0.5,0.333,P(o-OMePh)3,triaryl,False,33.06
+17,6,cliffs_I cliffs_IX cliffs_VII cliffs_VIII cliffs_XI cliffs_XII,3,2,0.5,0.333,PPh3,triaryl,False,28.22
+338,2,cliffs_VII cliffs_VIII,2,2,1.0,1.0,PAd2(2-piperidyl-Ph),alkyl-aryl,False,36.93
+648,2,cliffs_VII cliffs_VIII,2,2,1.0,1.0,P(OtBu)2N((i-Pr))2,P-heteroatom,False,34.58
+449,3,cliffs_IX cliffs_VII cliffs_VIII,2,1,0.667,0.333,P(NEt2)3,P-heteroatom,False,32.06
+4,4,cliffs_IX cliffs_VII cliffs_VIII cliffs_XI,2,1,0.5,0.25,RuPhos,biaryl,True,30.86
+179,4,cliffs_II cliffs_III cliffs_IV cliffs_V,2,2,0.5,0.5,PCy(o-Tol)2,alkyl-aryl,False,31.37
+266,4,cliffs_II cliffs_III cliffs_IV cliffs_V,2,1,0.5,0.25,Ph2P(o-Tol),triaryl,False,28.96
+309,4,cliffs_II cliffs_III cliffs_IV cliffs_V,2,1,0.5,0.25,CataCXium PICy,biaryl,True,36.13
+314,4,cliffs_II cliffs_III cliffs_IV cliffs_V,2,1,0.5,0.25,CataCXium PInCy,biaryl,True,30.88
+21,5,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_XI,2,2,0.4,0.4,PEt3 HBF4,trialkyl,False,24.4
+62,5,cliffs_I cliffs_IX cliffs_VII cliffs_VIII cliffs_XII,2,1,0.4,0.2,P(p-OMePh)3,triaryl,False,28.21
+88,5,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_XII,2,1,0.4,0.2,PBu(t-Bu)2 HBF4,trialkyl,False,32.67
+196,5,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_XII,2,0,0.4,0.0,"P(2,4-Xyl)3",triaryl,False,34.21
+252,5,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V,2,1,0.4,0.2,P(i-Bu)3,trialkyl,False,31.1
+53,6,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_XII,2,1,0.333,0.167,"P(2,6-di-OMePh)3",triaryl,False,41.06
+171,6,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_VII cliffs_VIII,2,2,0.333,0.333,CyTriceraPhos,alkyl-aryl,False,28.43
+64,7,cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII,2,1,0.286,0.143,CataCXium ABn,trialkyl,False,33.21
+566,7,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_VII cliffs_VIII,2,1,0.286,0.143,DrewPhos,triaryl,False,27.16
+6,8,cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII cliffs_XI,2,2,0.25,0.25,PAd3,trialkyl,False,36.57
+68,8,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII,2,2,0.25,0.25,PCy2Ph,alkyl-aryl,False,28.84
+5,9,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_VII cliffs_VIII cliffs_XI cliffs_XII,2,3,0.222,0.333,CyJohnPhos,biaryl,True,31.76
+8,10,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII cliffs_XI cliffs_XII,2,1,0.2,0.1,P(t-Bu)3,trialkyl,False,36.26
+11,10,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII cliffs_XI cliffs_XII,2,3,0.2,0.3,PCy3,trialkyl,False,30.2
+27,1,cliffs_XI,1,1,1.0,1.0,PhSPhos-D2 (oTolSPhos),biaryl,True,35.05
+57,1,cliffs_XII,1,0,1.0,0.0,P(DEA)2Ph,P-heteroatom,False,30.41
+60,1,cliffs_XII,1,1,1.0,1.0,P(mesityl)3,triaryl,False,48.25
+75,1,cliffs_XII,1,0,1.0,0.0,P(OPh)3 Phosphite,P-heteroatom,False,24.17
+108,1,cliffs_XII,1,1,1.0,1.0,"P(2,6-Me2Ph)3",triaryl,False,48.51
+119,1,cliffs_XII,1,0,1.0,0.0,P(2-CF3-Ph)3,triaryl,False,45.63
+166,1,cliffs_I,1,1,1.0,1.0,"PCyp(3,5-(CF3)2-Ph)2",alkyl-aryl,False,27.34
+191,1,cliffs_XII,1,0,1.0,0.0,"P(O-2,4-(t-Bu)2-Ph)3",P-heteroatom,False,29.87
+425,1,cliffs_XII,1,1,1.0,1.0,P(NPh2)2(t-Bu),P-heteroatom,False,42.39
+491,1,cliffs_XII,1,0,1.0,0.0,P(i-Pr)(t-Bu)2,trialkyl,False,34.18
+1083,1,cliffs_XII,1,1,1.0,1.0,PMe(t-Bu)(Ph-Ph),biaryl,True,28.63
+1087,1,cliffs_XII,1,1,1.0,1.0,P(t-Bu)(i-Pr)(Ph-Ph),biaryl,True,35.28
+1088,1,cliffs_XII,1,1,1.0,1.0,P(t-Bu)(Ph-Ph)(2-MeMe-2- Ph),biaryl,True,40.9
+1097,1,cliffs_XII,1,1,1.0,1.0,P(o-CF3-Ph)(o-OMe-Ph)2,triaryl,False,32.7
+1098,1,cliffs_XII,1,1,1.0,1.0,P(o-MeOMe-Ph)3,triaryl,False,35.45
+1099,1,cliffs_XII,1,0,1.0,0.0,P(NEt2)(OMe-biphenylOO),P-heteroatom,False,34.78
+1101,1,cliffs_XII,1,0,1.0,0.0,"P(t-Bu)((t-Bu),OMe- biphenylOO)",P-heteroatom,False,33.44
+1102,1,cliffs_XII,1,0,1.0,0.0,P(t-Bu)(O- biNapthaleneOO),P-heteroatom,False,27.73
+1108,1,cliffs_XII,1,1,1.0,1.0,P(t-Bu)CyFc,trialkyl,False,31.52
+16,2,cliffs_XI cliffs_XII,1,0,0.5,0.0,P(4-CF3Ph)3,triaryl,False,28.16
+69,2,cliffs_VII cliffs_VIII,1,1,0.5,0.5,"PCy2(4NMe2Ph), CyAtaPhos",alkyl-aryl,False,28.89
+139,2,cliffs_VII cliffs_VIII,1,1,0.5,0.5,P(OEt)Ph2,P-heteroatom,False,25.1
+291,2,cliffs_IX cliffs_VII,1,2,0.5,1.0,Me4(t-Bu)XPhos,biaryl,True,43.49
+351,2,cliffs_VII cliffs_VIII,1,0,0.5,0.0,"PEt2(4-NMe2-Ph), Et-AmPhos",alkyl-aryl,False,24.12
+458,2,cliffs_VII cliffs_VIII,1,1,0.5,0.5,PPh2(1-Isochinolin-2Nap),biaryl,True,30.35
+640,2,cliffs_VII cliffs_VIII,1,1,0.5,0.5,PNEt2_Benzodioxaphosphepine,P-heteroatom,False,23.55
+644,2,cliffs_VII cliffs_VIII,1,0,0.5,0.0,"POPh_5,5-dimethyldioxaphosphinane",P-heteroatom,False,21.58
+650,2,cliffs_VII cliffs_VIII,1,1,0.5,0.5,P(OBn)2NEt2,P-heteroatom,False,25.25
+42,4,cliffs_IX cliffs_VII cliffs_VIII cliffs_XII,1,0,0.25,0.0,JohnPhos,biaryl,True,37.04
+85,4,cliffs_IX cliffs_VII cliffs_VIII cliffs_XII,1,1,0.25,0.25,PPh2(i-Pr),alkyl-aryl,False,28.01
+186,4,cliffs_II cliffs_III cliffs_IV cliffs_V,1,1,0.25,0.25,"P(3,5-(t-Bu)2-Ph)2(3,5-TRIP2-Ph)",triaryl,False,26.92
+260,4,cliffs_II cliffs_III cliffs_IV cliffs_V,1,3,0.25,0.75,Ph2P(2-PhBr),triaryl,False,28.86
+276,4,cliffs_II cliffs_III cliffs_IV cliffs_V,1,0,0.25,0.0,TrixiePhos,biaryl,True,57.18
+310,4,cliffs_II cliffs_III cliffs_IV cliffs_V,1,1,0.25,0.25,CataCXium POMetB,biaryl,True,54.57
+311,4,cliffs_II cliffs_III cliffs_IV cliffs_V,1,2,0.25,0.5,CataCXium POMeCy,biaryl,True,30.88
+323,4,cliffs_II cliffs_III cliffs_IV cliffs_V,1,1,0.25,0.25,NappyPhos,biaryl,True,51.31
+608,4,cliffs_II cliffs_III cliffs_IV cliffs_V,1,4,0.25,1.0,Xyl2P(2-PhCHO),triaryl,False,31.07
+838,4,cliffs_II cliffs_III cliffs_IV cliffs_V,1,4,0.25,1.0,P((CH2)3OH)3,trialkyl,False,25.46
+2,5,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_XI,1,1,0.2,0.2,CPhos,biaryl,True,32.59
+89,5,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_VII,1,2,0.2,0.4,(t-Bu)BrettPhos,biaryl,True,43.93
+163,5,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V,1,1,0.2,0.2,PCyp(Mes)2,alkyl-aryl,False,38.12
+168,5,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V,1,0,0.2,0.0,PCy(4-OMePh)2,alkyl-aryl,False,27.9
+169,5,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V,1,0,0.2,0.0,"PtBu(3,5-(t-Bu)2-Ph)2",alkyl-aryl,False,29.8
+239,6,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_VII cliffs_VIII,1,0,0.167,0.0,POct3,trialkyl,False,23.63
+280,6,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_VII cliffs_VIII,1,0,0.167,0.0,(t-Bu)MePhos,biaryl,True,36.88
+70,7,cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII,1,3,0.143,0.429,PCyp3,trialkyl,False,29.31
+90,7,cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII,1,0,0.143,0.0,(t-Bu)XPhos,biaryl,True,56.73
+158,7,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_VII cliffs_VIII,1,0,0.143,0.0,CyTyrannoPhos,alkyl-aryl,False,27.69
+30,8,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII,1,1,0.125,0.125,PCy(t-Bu)2,trialkyl,False,34.28
+20,9,cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII cliffs_XI cliffs_XII,0,0,0.0,0.0,PBu3,trialkyl,False,24.24
+104,7,cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII,0,0,0.0,0.0,JackiePhos,biaryl,True,33.57
+340,7,cliffs_II cliffs_III cliffs_IV cliffs_IX cliffs_V cliffs_VII cliffs_VIII,0,0,0.0,0.0,Ad-BippyPhos,biaryl,True,56.09
+162,6,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_XII,0,1,0.0,0.167,PCyPh2,alkyl-aryl,False,27.96
+327,6,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_VII cliffs_VIII,0,3,0.0,0.5,Cy-BippyPhos,biaryl,True,30.12
+1,5,cliffs_I cliffs_IX cliffs_VII cliffs_VIII cliffs_XI,0,1,0.0,0.2,XPhos,biaryl,True,31.44
+3,5,cliffs_I cliffs_IX cliffs_VII cliffs_VIII cliffs_XI,0,1,0.0,0.2,SPhos,biaryl,True,31.67
+12,5,cliffs_II cliffs_III cliffs_IV cliffs_V cliffs_XI,0,0,0.0,0.0,PNp(t-Bu)2,trialkyl,False,40.54
+157,5,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,TyrannoPhos,alkyl-aryl,False,27.12
+159,5,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,TriceraPhos,alkyl-aryl,False,27.81
+165,5,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,"PCyp(3,5-Me2-Ph)2",alkyl-aryl,False,27.46
+170,5,cliffs_I cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,"P(CH2Cyp)(3,5-(t-Bu)2-Ph)2",alkyl-aryl,False,25.55
+31,4,cliffs_IX cliffs_VII cliffs_VIII cliffs_XI,0,1,0.0,0.25,P(t-Bu)2Ph,alkyl-aryl,False,35.15
+44,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,CataCXium Pcy,biaryl,True,31.57
+82,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,P(m-Tol)3,triaryl,False,28.14
+103,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,RockPhos,biaryl,True,41.75
+117,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,Ph2P(p-Tol),triaryl,False,28.21
+137,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,4,0.0,1.0,P(CH2CH2CN)3,trialkyl,False,26.03
+175,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,PCyp2(4-OMe-Ph),alkyl-aryl,False,28.04
+182,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,"P(norbornenyl)(3,5-(t-Bu)2-Ph)2",alkyl-aryl,False,27.45
+184,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,"PCyp(3,5-Mes2-Ph)2",alkyl-aryl,False,26.79
+185,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,PCyp(9THPQ)2,alkyl-aryl,False,27.25
+187,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,"PPh(3,5-(t-Bu)2-Ph)2",triaryl,False,27.69
+249,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,P(3-MeOPh)3,triaryl,False,27.83
+277,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,3,0.0,0.75,MePhos,biaryl,True,31.51
+281,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,(t-Bu)DavePhos,biaryl,True,36.65
+292,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,BippyPhos,biaryl,True,55.74
+295,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,TrippyPhos,biaryl,True,54.83
+296,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,CataCXium PIntB,biaryl,True,52.13
+299,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,CataCXium PtB,biaryl,True,51.74
+303,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,TropPPh2,alkyl-aryl,False,33.09
+320,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,2,0.0,0.5,"2′-Dicyclohexylphosphino-2,4,6-trimethoxybiphenyl",biaryl,True,31.63
+337,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,3,0.0,0.75,Cy-PhenCarPhos,biaryl,True,31.53
+344,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,0,0.0,0.0,Trop2PPh,alkyl-aryl,False,45.33
+584,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,4,0.0,1.0,"(3,5-t-Bu-4-MeOPh)2P(2-PhCHO)",triaryl,False,27.9
+720,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,4,0.0,1.0,Ph2P(2-PhCN),triaryl,False,28.87
+723,4,cliffs_I cliffs_IX cliffs_VII cliffs_VIII,0,0,0.0,0.0,rac-bi-DIME,biaryl,True,40.74
+735,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,4,0.0,1.0,P(CH2CH2CO2Me)3,trialkyl,False,25.79
+739,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,4,0.0,1.0,P(CH2OH)3,trialkyl,False,21.88
+795,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,4,0.0,1.0,m-Miranphos,triaryl,False,27.94
+796,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,4,0.0,1.0,m-Miran2phos,triaryl,False,27.24
+797,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,4,0.0,1.0,p-Miranphos,triaryl,False,28.1
+798,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,4,0.0,1.0,p-Miran2phos,triaryl,False,28.18
+799,4,cliffs_II cliffs_III cliffs_IV cliffs_V,0,4,0.0,1.0,Ph2P(2-PhCHO),triaryl,False,31.24
+83,3,cliffs_IX cliffs_VII cliffs_VIII,0,0,0.0,0.0,P(n-Pr)3,trialkyl,False,24.15
+84,3,cliffs_IX cliffs_VII cliffs_VIII,0,0,0.0,0.0,PallylPh2,alkyl-aryl,False,26.02
+102,2,cliffs_VII cliffs_VIII,0,0,0.0,0.0,BrettPhos,biaryl,True,34.91
+116,2,cliffs_VII cliffs_VIII,0,0,0.0,0.0,"PPh2(4-NMe2-Ph), PhAtaPhos",triaryl,False,28.25
+130,2,cliffs_VII cliffs_VIII,0,1,0.0,0.5,PPh2(2-OMe-Ph),triaryl,False,28.9
+148,2,cliffs_VII cliffs_VIII,0,0,0.0,0.0,P(OEt)3,P-heteroatom,False,24.78
+329,2,cliffs_VII cliffs_VIII,0,0,0.0,0.0,CM-Phos,biaryl,True,32.28
+401,2,cliffs_VII cliffs_VIII,0,0,0.0,0.0,"exo PPh,NTs Azaphosphabicycloheptane",alkyl-aryl,False,24.36
+7,1,cliffs_XI,0,1,0.0,1.0,PhSPhos,biaryl,True,29.04
+18,1,cliffs_XI,0,0,0.0,0.0,PpTol3,triaryl,False,28.17
+19,1,cliffs_XI,0,0,0.0,0.0,PBnPh2,alkyl-aryl,False,26.51
+23,1,cliffs_XI,0,1,0.0,1.0,2-C5 monoXantphos,triaryl,False,28.71
+24,1,cliffs_XI,0,0,0.0,0.0,naphthyl)phenyl]-,biaryl,True,29.13
+25,1,cliffs_XI,0,0,0.0,0.0,PhXPhos,biaryl,True,30.23
+26,1,cliffs_XI,0,1,0.0,1.0,"3,5CF3_PhSPhos",biaryl,True,29.01
+28,1,cliffs_XI,0,1,0.0,1.0,4CF3_PhSPhos,biaryl,True,28.93
+29,1,cliffs_XI,0,0,0.0,0.0,"3,5CF3_PhXPhos",biaryl,True,29.65
+35,1,cliffs_XI,0,0,0.0,0.0,4CF3_PhXPhos,biaryl,True,29.92
+50,1,cliffs_XII,0,1,0.0,1.0,"P(2,4,6-OMePh)3, TTMPP",triaryl,False,40.83
+54,1,cliffs_XII,0,0,0.0,0.0,"P(2-furyl)3, TFP",triaryl,False,25.7
+81,1,cliffs_XII,0,0,0.0,0.0,PMePh2,alkyl-aryl,False,25.74
+109,1,cliffs_XII,0,0,0.0,0.0,(i-Pr)JohnPhos,biaryl,True,32.06
+110,1,cliffs_XII,0,1,0.0,1.0,PTMS3,P-heteroatom,False,32.41
+123,1,cliffs_XII,0,1,0.0,1.0,P(C6F5)3,triaryl,False,37.0
+128,1,cliffs_XII,0,1,0.0,1.0,P(NMe2)3,P-heteroatom,False,30.53
+160,1,cliffs_I,0,0,0.0,0.0,PCyp2Ph,alkyl-aryl,False,28.03
+161,1,cliffs_I,0,0,0.0,0.0,PCypPh2,alkyl-aryl,False,27.5
+183,1,cliffs_I,0,0,0.0,0.0,PteroPhos,alkyl-aryl,False,27.3
+285,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)2(ferrocene),trialkyl,False,33.95
+330,1,cliffs_XII,0,0,0.0,0.0,QPhos,trialkyl,False,47.58
+417,1,cliffs_XII,0,0,0.0,0.0,PAd2(t-Bu),trialkyl,False,36.46
+418,1,cliffs_XII,0,0,0.0,0.0,Ph-Me2Phospholane (trans),alkyl-aryl,False,27.08
+424,1,cliffs_XII,0,1,0.0,1.0,P(N(i-Pr)2)2(t-Bu),P-heteroatom,False,42.02
+862,1,cliffs_I,0,0,0.0,0.0,MeJohnPhos,biaryl,True,26.0
+951,1,cliffs_XII,0,0,0.0,0.0,PBn(t-Bu)2,trialkyl,False,33.0
+952,1,cliffs_XII,0,0,0.0,0.0,P(Ad)(t-Bu)2,trialkyl,False,36.36
+953,1,cliffs_XII,0,0,0.0,0.0,P(Ad*)(t-Bu)2,trialkyl,False,35.67
+1084,1,cliffs_XII,0,0,0.0,0.0,P(n-Bu)(t-Bu)(Ph-Ph),biaryl,True,31.77
+1085,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)Bn(Ph-Ph),biaryl,True,35.34
+1086,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)Cy(Ph-Ph),biaryl,True,35.08
+1089,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)(Ph-Ph)(MeTMS),biaryl,True,39.04
+1090,1,cliffs_XII,0,0,0.0,0.0,"P((t-Bu))2(Ph-2,4,6-Me3- Ph)",biaryl,True,57.02
+1091,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)Ph(Ph-Ph),biaryl,True,33.15
+1092,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)(Ph-Ph)(o-Me-Ph),biaryl,True,38.08
+1093,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)(Ph-Ph)(p-OMe-Ph),biaryl,True,40.16
+1094,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)(Ph-Ph)(p-CF3-Ph),biaryl,True,33.1
+1095,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)(PhPh)2,biaryl,True,43.96
+1096,1,cliffs_XII,0,1,0.0,1.0,P(2-6-di-OMe-Ph)(2-OMe- Ph)2,triaryl,False,33.24
+1100,1,cliffs_XII,0,1,0.0,1.0,P(t-Bu)(O(t-Bu))2,P-heteroatom,False,35.01
+1103,1,cliffs_XII,0,1,0.0,1.0,P(t-Bu)(indole)2,P-heteroatom,False,32.91
+1104,1,cliffs_XII,0,1,0.0,1.0,P(t-Bu)(imidazole)2,P-heteroatom,False,29.29
+1105,1,cliffs_XII,0,1,0.0,1.0,P(t-Bu)(NEt2)2,P-heteroatom,False,32.72
+1106,1,cliffs_XII,0,1,0.0,1.0,P(t-Bu)(piperidine)2,P-heteroatom,False,31.84
+1107,1,cliffs_XII,0,1,0.0,1.0,P(i-Pr)(NEt2)2,P-heteroatom,False,30.81
+1109,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)(o-Me-Ph)Fc,alkyl-aryl,False,33.73
+1110,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)BnFc,trialkyl,False,29.96
+1111,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)(2-MeMe-2-Ph)Fc,trialkyl,False,37.28
+1112,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)(napthalene)Fc,alkyl-aryl,False,33.46
+1113,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)(Ph-Ph)Fc,biaryl,True,40.53
+1114,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)(p-CF3-Ph)Fc,alkyl-aryl,False,30.63
+1115,1,cliffs_XII,0,0,0.0,0.0,P(t-Bu)(p-OMe-Ph)Fc,alkyl-aryl,False,30.81
