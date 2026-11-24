@@ -101,3 +101,4 @@ Any change after the `prereg` tag goes here with its date and reason.
 
 | Date | Change | Reason |
 | --- | --- | --- |
+| 11/23/2026 | Gate not met by the letter (8 of 11); proceeding with all eleven datasets. H1 additionally reported excluding VII, VIII and IX as a sensitivity analysis. | Extracted data hand-checked and match the SI; the three mismatches trace to differences between SI tables and the published Table S8 (see docs/signoffs.md). Added before any model was fitted. |
