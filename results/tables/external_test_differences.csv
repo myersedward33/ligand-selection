@@ -1,0 +1,10 @@
+subset,comparison,mcc_difference,lo,hi,interval_excludes_zero
+all,elastic_net_frozen - threshold_published,-0.4578,-0.742,-0.1433,True
+all,elastic_net_frozen - threshold_ni_pool,-0.412,-0.6896,-0.0967,True
+all,threshold_ni_pool - threshold_published,-0.0458,-0.1224,0.0,False
+not_in_ni_pool,elastic_net_frozen - threshold_published,-0.6468,-1.0,0.0,False
+not_in_ni_pool,elastic_net_frozen - threshold_ni_pool,-0.6468,-1.0,0.0,False
+not_in_ni_pool,threshold_ni_pool - threshold_published,0.0,0.0,0.0,False
+buchwald_type,elastic_net_frozen - threshold_published,-0.4458,-0.7655,-0.1192,True
+buchwald_type,elastic_net_frozen - threshold_ni_pool,-0.3603,-0.7113,-0.0042,True
+buchwald_type,threshold_ni_pool - threshold_published,-0.0855,-0.2697,0.0,False

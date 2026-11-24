@@ -1,0 +1,10 @@
+subset,model,n,active,tn,fp,fn,tp,mcc,mcc_lo,mcc_hi,balanced_accuracy
+all,elastic_net_frozen,43,12,18,13,7,5,-0.0024,-0.2878,0.3141,0.4987
+all,threshold_ni_pool,43,12,13,18,0,12,0.4096,0.2651,0.5586,0.7097
+all,threshold_published,43,12,15,16,0,12,0.4554,0.303,0.6182,0.7419
+not_in_ni_pool,elastic_net_frozen,10,3,6,1,3,0,-0.2182,-0.5,0.0,0.4286
+not_in_ni_pool,threshold_ni_pool,10,3,3,4,0,3,0.4286,0.0,0.8165,0.7143
+not_in_ni_pool,threshold_published,10,3,3,4,0,3,0.4286,0.0,0.8165,0.7143
+buchwald_type,elastic_net_frozen,21,11,10,0,7,4,0.4625,0.2052,0.7303,0.6818
+buchwald_type,threshold_ni_pool,21,11,8,2,0,11,0.8228,0.5863,1.0,0.9
+buchwald_type,threshold_published,21,11,9,1,0,11,0.9083,0.7126,1.0,0.95
