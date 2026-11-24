@@ -89,20 +89,23 @@ def tep_figure() -> dict:
     if not tep_path.exists():
         print("data/processed/tepid.csv missing: run `make tepid` first; skipping the TEP figure")
         return {}
-    import os
     tep = pd.read_csv(tep_path).dropna()
-    ref_path = os.path.expanduser(os.environ.get(
-        "TEPID_DIR", "~/ext/TEPid")) + "/Machine_Learning_Model/20230720-TEPid_DATA.xlsx"
-    ref = pd.read_excel(ref_path)["TEPcorr"].dropna()
+    ref_all = pd.read_csv(PROCESSED_DIR / "tepid_reference.csv")
+    # like for like: TEPid's predictions on its own reference set, not that set's DFT values
+    ref = ref_all["tep_predicted"].dropna()
+    err = (ref_all["tep_predicted"] - ref_all["tep_dft_corrected"]).dropna()
     j = pd.read_csv(PROCESSED_DIR / "joined.csv")
     roles = load_config()["datasets"]
     used = j[j["included"] & j["dataset"].map(lambda d: roles[d]["role"] in ("primary", "external"))]["id_2025"]
     modelled = tep[tep["kraken_id"].isin(used.dropna().astype(int))]["tep_cm1"]
-    groups = [("TEPid reference set (DFT)", ref, SERIES[2]),
+    groups = [("TEPid reference set, TEPid-predicted", ref, SERIES[2]),
               ("Kraken DFT library, TEPid-predicted", tep["tep_cm1"], SERIES[0]),
               ("Modelled ligands, TEPid-predicted", modelled, SERIES[1])]
     summary = pd.DataFrame([{"set": n, "n": len(v), "median": v.median(), "mean": v.mean(), "sd": v.std(),
                              "q10": v.quantile(0.1), "q90": v.quantile(0.9)} for n, v, _ in groups])
+    summary = pd.concat([summary, pd.DataFrame([{
+        "set": "TEPid reference: prediction minus DFT", "n": len(err), "median": err.median(),
+        "mean": err.mean(), "sd": err.std(), "q10": err.quantile(0.1), "q90": err.quantile(0.9)}])])
     summary.round(2).to_csv(RESULTS_DIR / "tables" / "tep_summary.csv", index=False)
 
     fig, ax = plt.subplots(figsize=(8.2, 4.4), facecolor=SURFACE)
@@ -120,8 +123,8 @@ def tep_figure() -> dict:
     s = summary.set_index("set")["median"]
     fig.text(0.08, 0.93, "The ligands being modelled sit on the donor side of the electronic range",
              fontsize=13, fontweight="bold", color=INK)
-    fig.text(0.08, 0.87, f"Medians (dashed): modelled {s.iloc[2]:.1f}, Kraken {s.iloc[1]:.1f}, TEPid DFT reference "
-             f"{s.iloc[0]:.1f} cm⁻¹", fontsize=9, color=INK2)
+    fig.text(0.08, 0.87, f"Medians (dashed): modelled {s.iloc[2]:.1f}, Kraken {s.iloc[1]:.1f}, TEPid reference "
+             f"{s.iloc[0]:.1f} cm⁻¹, all TEPid predictions", fontsize=9, color=INK2)
     fig.savefig(RESULTS_DIR / "figures" / "tep_skew.png", dpi=200, facecolor=SURFACE)
     plt.close(fig)
     return {f"tep_median_{i}": round(float(s.iloc[i]), 1) for i in range(3)}
