@@ -30,6 +30,10 @@ Claude does not fill in this file.
 
 ## Step 16: the gate
 
-- Date:
-- Result from `results/tables/baseline_reproduction.csv`:
-- Decision, with reasons (if proceeding despite a failed rule, also add a deviation-log entry):
+- Date: 11/23/2026
+- Result: 8 of 11 primary datasets pass (threshold within 0.11, MCC within 0.03). Thresholds reproduce exactly on 9 of 11. VII 
+    reproduces under the SI's documented Buchwald exclusion (MCC 0.40 vs 0.43); IX reproduces exactly with PCy₃ or PCyp₃ removed; 
+    VIII matches on threshold but not MCC (0.705 vs 0.75), unexplained.
+    Rows of VIII (Table S10) and IX (Table S11) hand-checked against the SI: all match.
+- Decision: proceed with all eleven datasets as extracted. The mismatches lie in the published Table S8, not the extracted data. 
+    H1 is also reported excluding VII, VIII and IX (see deviation log).
