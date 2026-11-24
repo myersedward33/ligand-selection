@@ -1,0 +1,1061 @@
+dataset,cluster,members,family,frequency_any_member
+cliffs_I,1,qpoletens_yy_boltz,electrostatic,0.524
+cliffs_I,2,qpoletens_yy_vburminconf,electrostatic,0.15
+cliffs_I,5,dipolemoment_max,electrostatic,0.484
+cliffs_I,6,dipolemoment_vburminconf,electrostatic,0.776
+cliffs_I,7,dipolemoment_boltz,electrostatic,0.262
+cliffs_I,8,dipolemoment_min,electrostatic,0.298
+cliffs_I,9,qpole_amp_min qpoletens_xx_min qpoletens_zz_max,electrostatic,0.51
+cliffs_I,10,qpole_amp_vburminconf qpoletens_xx_vburminconf qpoletens_zz_vburminconf,electrostatic,0.38
+cliffs_I,11,qpole_amp_max qpoletens_xx_max qpoletens_zz_min,electrostatic,0.156
+cliffs_I,12,qpole_amp_boltz qpoletens_xx_boltz qpoletens_zz_boltz,electrostatic,0.452
+cliffs_I,13,fmo_e_lumo_boltz fmo_omega_boltz,electronic,0.528
+cliffs_I,14,somo_ra_boltz E_reduction_boltz,electronic,0.374
+cliffs_I,15,fmo_mu_boltz,electronic,0.3
+cliffs_I,16,fmo_eta_boltz,electronic,0.478
+cliffs_I,17,qpole_amp_delta qpoletens_xx_delta qpoletens_zz_delta,electrostatic,0.482
+cliffs_I,18,qpoletens_yy_delta,electrostatic,0.164
+cliffs_I,19,dipolemoment_delta,electrostatic,0.496
+cliffs_I,20,qpoletens_yy_min,electrostatic,0.294
+cliffs_I,21,qpoletens_yy_max,electrostatic,0.176
+cliffs_I,22,sterimol_burL_max,steric,0.058
+cliffs_I,23,sterimol_burL_vburminconf,steric,0.068
+cliffs_I,24,sterimol_B5_delta,steric,0.312
+cliffs_I,25,sterimol_burB5_delta,steric,0.166
+cliffs_I,26,sterimol_L_delta,steric,0.058
+cliffs_I,27,pyr_P_delta pyr_alpha_delta,steric,0.19
+cliffs_I,28,vbur_qvtot_max_delta vbur_max_delta_qvtot_delta vbur_ovtot_max_delta,steric,0.24
+cliffs_I,29,vbur_vbur_delta vbur_qvbur_max_delta vbur_max_delta_qvbur_delta vbur_far_vbur_delta,steric,0.42
+cliffs_I,30,vbur_near_vtot_delta vbur_far_vtot_max vbur_far_vtot_delta,steric,0.096
+cliffs_I,31,sterimol_B1_delta sterimol_burB1_delta,steric,0.682
+cliffs_I,32,vbur_qvtot_min_delta,steric,0.272
+cliffs_I,33,vbur_qvbur_min_delta,steric,0.112
+cliffs_I,34,vbur_near_vbur_delta,steric,0.266
+cliffs_I,35,vbur_ovbur_max_delta,steric,0.74
+cliffs_I,36,sterimol_burL_delta,steric,0.284
+cliffs_I,37,nuesp_P_boltz nbo_bd_e_avg_boltz,electronic,0.634
+cliffs_I,38,nbo_bd_e_max_boltz,electronic,0.516
+cliffs_I,39,vmin_vmin_boltz,electronic,0.4
+cliffs_I,40,nbo_lp_P_e_boltz,electronic,0.138
+cliffs_I,41,vmin_r_boltz,electronic,0.632
+cliffs_I,42,pyr_P_vburminconf pyr_alpha_vburminconf,steric,0.288
+cliffs_I,43,pyr_P_min pyr_alpha_max,steric,0.384
+cliffs_I,44,pyr_P_max pyr_alpha_min,steric,0.62
+cliffs_I,45,pyr_P_boltz pyr_alpha_boltz,steric,0.508
+cliffs_I,46,vbur_qvbur_min_min,steric,0.646
+cliffs_I,47,vbur_qvbur_min_vburminconf,steric,0.714
+cliffs_I,48,vbur_qvbur_min_boltz,steric,0.8
+cliffs_I,49,nbo_bd_occ_min_boltz,electronic,0.266
+cliffs_I,50,nbo_bd_occ_avg_boltz,electronic,0.558
+cliffs_I,51,nbo_lp_P_percent_s_boltz,electronic,0.33
+cliffs_I,52,nbo_lp_P_occ_boltz,electronic,0.75
+cliffs_I,53,nbo_bds_e_min_boltz nbo_bds_e_avg_boltz,electronic,0.284
+cliffs_I,54,fmo_e_homo_boltz E_oxidation_boltz,electronic,0.252
+cliffs_I,55,Pint_P_min_boltz,dispersion,0.54
+cliffs_I,56,vbur_ovbur_min_boltz vbur_ovbur_min_max vbur_ovbur_min_delta vbur_ovtot_min_boltz vbur_ovtot_min_max vbur_ovtot_min_delta,steric,0.414
+cliffs_I,57,vbur_qvbur_min_max,steric,0.494
+cliffs_I,58,vbur_vbur_boltz vbur_qvbur_max_boltz vbur_ovbur_max_boltz vbur_near_vbur_boltz,steric,0.972
+cliffs_I,59,vbur_far_vbur_boltz vbur_far_vtot_boltz,steric,0.816
+cliffs_I,60,vbur_vbur_max vbur_near_vbur_max,steric,0.416
+cliffs_I,61,vbur_qvbur_max_max vbur_max_delta_qvbur_max vbur_ovbur_max_max vbur_far_vbur_max,steric,0.546
+cliffs_I,62,vbur_max_delta_qvbur_boltz,steric,0.444
+cliffs_I,63,vbur_max_delta_qvbur_min,steric,0.12
+cliffs_I,64,vbur_max_delta_qvbur_vburminconf,steric,0.114
+cliffs_I,65,vbur_vbur_min vbur_qvbur_max_min vbur_qvbur_max_vburminconf vbur_ovbur_max_min vbur_ovbur_max_vburminconf vbur_near_vbur_min vbur_near_vbur_vburminconf,steric,0.984
+cliffs_I,66,vbur_far_vbur_min vbur_far_vbur_vburminconf,steric,0.246
+cliffs_I,67,vbur_far_vtot_min vbur_far_vtot_vburminconf,steric,0.08
+cliffs_I,68,sterimol_L_min,steric,0.338
+cliffs_I,69,sterimol_burL_min,steric,0.668
+cliffs_I,70,sterimol_burL_boltz,steric,0.108
+cliffs_I,71,spindens_P_ra_boltz fukui_p_boltz,electronic,0.464
+cliffs_I,72,sterimol_B1_max sterimol_burB1_max,steric,0.194
+cliffs_I,73,vbur_qvtot_min_max,steric,0.244
+cliffs_I,74,vbur_qvtot_min_min sterimol_B1_min sterimol_burB1_min,steric,0.83
+cliffs_I,75,vbur_qvtot_min_boltz sterimol_B1_boltz sterimol_burB1_boltz,steric,0.364
+cliffs_I,76,sterimol_B1_vburminconf sterimol_burB1_vburminconf,steric,0.206
+cliffs_I,77,vbur_qvtot_min_vburminconf,steric,0.248
+cliffs_I,78,vbur_ratio_vbur_vtot_boltz,steric,0.27
+cliffs_I,79,sterimol_L_boltz,steric,0.478
+cliffs_I,80,sterimol_L_max sterimol_L_vburminconf,steric,0.236
+cliffs_I,81,sterimol_burB5_boltz,steric,0.204
+cliffs_I,82,sterimol_burB5_max,steric,0.104
+cliffs_I,83,vbur_max_delta_qvtot_boltz vbur_max_delta_qvtot_max,steric,0.152
+cliffs_I,84,vbur_max_delta_qvtot_vburminconf,steric,0.18
+cliffs_I,85,vbur_max_delta_qvtot_min,steric,0.144
+cliffs_I,86,sterimol_burB5_min,steric,0.184
+cliffs_I,87,sterimol_burB5_vburminconf,steric,0.142
+cliffs_I,88,sterimol_B5_boltz sterimol_B5_max,steric,0.178
+cliffs_I,89,sterimol_B5_min,steric,0.15
+cliffs_I,90,sterimol_B5_vburminconf,steric,0.098
+cliffs_I,91,E_solv_total_boltz Pint_P_int_boltz,dispersion/solvation,0.072
+cliffs_I,92,somo_rc_boltz,electronic,0.1
+cliffs_I,93,E_solv_cds_boltz,solvation,0.324
+cliffs_I,94,Pint_dP_boltz,dispersion,0.054
+cliffs_I,95,Pint_P_max_boltz,dispersion,0.034
+cliffs_I,96,vbur_vtot_boltz volume_boltz surface_area_boltz vbur_near_vtot_boltz vbur_near_vtot_min vbur_near_vtot_max vbur_near_vtot_vburminconf,steric,0.362
+cliffs_I,97,vbur_qvtot_max_boltz vbur_qvtot_max_min vbur_qvtot_max_max vbur_qvtot_max_vburminconf vbur_ovtot_max_boltz vbur_ovtot_max_min vbur_ovtot_max_max vbur_ovtot_max_vburminconf,steric,0.246
+cliffs_I,98,sphericity_boltz,steric,0.18
+cliffs_I,99,E_solv_elstat_boltz,solvation,0.064
+cliffs_I,100,spindens_P_rc_boltz fukui_m_boltz,electronic,0.104
+cliffs_I,101,nbo_bds_occ_max_boltz nbo_bds_occ_avg_boltz,electronic,0.788
+cliffs_I,102,nmr_P_boltz nmrtens_sxx_P_boltz nmrtens_syy_P_boltz,electronic,0.22
+cliffs_I,103,nmrtens_szz_P_boltz,electronic,0.274
+cliffs_I,104,efg_amp_P_boltz efgtens_zz_P_boltz,electronic,0.722
+cliffs_I,105,nbo_P_boltz nbo_P_ra_boltz,electronic,0.838
+cliffs_I,106,efgtens_xx_P_boltz,electronic,0.232
+cliffs_I,107,nbo_P_rc_boltz,electronic,0.068
+cliffs_I,108,efgtens_yy_P_boltz,electronic,0.168
+cliffs_II,1,qpoletens_yy_boltz,electrostatic,0.86
+cliffs_II,2,qpoletens_yy_vburminconf,electrostatic,0.618
+cliffs_II,5,dipolemoment_max,electrostatic,0.86
+cliffs_II,6,dipolemoment_vburminconf,electrostatic,0.488
+cliffs_II,7,dipolemoment_boltz,electrostatic,0.926
+cliffs_II,8,dipolemoment_min,electrostatic,0.42
+cliffs_II,9,qpole_amp_min qpoletens_xx_min qpoletens_zz_max,electrostatic,0.838
+cliffs_II,10,qpole_amp_vburminconf qpoletens_xx_vburminconf qpoletens_zz_vburminconf,electrostatic,0.8
+cliffs_II,11,qpole_amp_max qpoletens_xx_max qpoletens_zz_min,electrostatic,0.854
+cliffs_II,12,qpole_amp_boltz qpoletens_xx_boltz qpoletens_zz_boltz,electrostatic,0.726
+cliffs_II,13,fmo_e_lumo_boltz fmo_omega_boltz,electronic,0.828
+cliffs_II,14,somo_ra_boltz E_reduction_boltz,electronic,0.414
+cliffs_II,15,fmo_mu_boltz,electronic,0.502
+cliffs_II,16,fmo_eta_boltz,electronic,0.378
+cliffs_II,17,qpole_amp_delta qpoletens_xx_delta qpoletens_zz_delta,electrostatic,0.626
+cliffs_II,18,qpoletens_yy_delta,electrostatic,0.274
+cliffs_II,19,dipolemoment_delta,electrostatic,0.846
+cliffs_II,20,qpoletens_yy_min,electrostatic,0.428
+cliffs_II,21,qpoletens_yy_max,electrostatic,0.662
+cliffs_II,22,sterimol_burL_max,steric,0.574
+cliffs_II,23,sterimol_burL_vburminconf,steric,0.7
+cliffs_II,24,sterimol_B5_delta,steric,0.622
+cliffs_II,25,sterimol_burB5_delta,steric,0.72
+cliffs_II,26,sterimol_L_delta,steric,0.482
+cliffs_II,27,pyr_P_delta pyr_alpha_delta,steric,0.76
+cliffs_II,28,vbur_qvtot_max_delta vbur_max_delta_qvtot_delta vbur_ovtot_max_delta,steric,0.908
+cliffs_II,29,vbur_vbur_delta vbur_qvbur_max_delta vbur_max_delta_qvbur_delta vbur_far_vbur_delta,steric,0.696
+cliffs_II,30,vbur_near_vtot_delta vbur_far_vtot_max vbur_far_vtot_delta,steric,0.35
+cliffs_II,31,sterimol_B1_delta sterimol_burB1_delta,steric,0.938
+cliffs_II,32,vbur_qvtot_min_delta,steric,0.486
+cliffs_II,33,vbur_qvbur_min_delta,steric,0.334
+cliffs_II,34,vbur_near_vbur_delta,steric,0.394
+cliffs_II,35,vbur_ovbur_max_delta,steric,0.624
+cliffs_II,36,sterimol_burL_delta,steric,0.576
+cliffs_II,37,nuesp_P_boltz nbo_bd_e_avg_boltz,electronic,0.788
+cliffs_II,38,nbo_bd_e_max_boltz,electronic,0.624
+cliffs_II,39,vmin_vmin_boltz,electronic,0.646
+cliffs_II,40,nbo_lp_P_e_boltz,electronic,0.582
+cliffs_II,41,vmin_r_boltz,electronic,0.752
+cliffs_II,42,pyr_P_vburminconf pyr_alpha_vburminconf,steric,0.688
+cliffs_II,43,pyr_P_min pyr_alpha_max,steric,0.914
+cliffs_II,44,pyr_P_max pyr_alpha_min,steric,0.708
+cliffs_II,45,pyr_P_boltz pyr_alpha_boltz,steric,0.904
+cliffs_II,46,vbur_qvbur_min_min,steric,0.836
+cliffs_II,47,vbur_qvbur_min_vburminconf,steric,0.638
+cliffs_II,48,vbur_qvbur_min_boltz,steric,0.924
+cliffs_II,49,nbo_bd_occ_min_boltz,electronic,0.552
+cliffs_II,50,nbo_bd_occ_avg_boltz,electronic,0.598
+cliffs_II,51,nbo_lp_P_percent_s_boltz,electronic,0.624
+cliffs_II,52,nbo_lp_P_occ_boltz,electronic,0.85
+cliffs_II,53,nbo_bds_e_min_boltz nbo_bds_e_avg_boltz,electronic,0.994
+cliffs_II,54,fmo_e_homo_boltz E_oxidation_boltz,electronic,0.48
+cliffs_II,55,Pint_P_min_boltz,dispersion,0.686
+cliffs_II,56,vbur_ovbur_min_boltz vbur_ovbur_min_max vbur_ovbur_min_delta vbur_ovtot_min_boltz vbur_ovtot_min_max vbur_ovtot_min_delta,steric,0.8
+cliffs_II,57,vbur_qvbur_min_max,steric,0.518
+cliffs_II,58,vbur_vbur_boltz vbur_qvbur_max_boltz vbur_ovbur_max_boltz vbur_near_vbur_boltz,steric,0.976
+cliffs_II,59,vbur_far_vbur_boltz vbur_far_vtot_boltz,steric,0.87
+cliffs_II,60,vbur_vbur_max vbur_near_vbur_max,steric,0.488
+cliffs_II,61,vbur_qvbur_max_max vbur_max_delta_qvbur_max vbur_ovbur_max_max vbur_far_vbur_max,steric,0.784
+cliffs_II,62,vbur_max_delta_qvbur_boltz,steric,0.484
+cliffs_II,63,vbur_max_delta_qvbur_min,steric,0.342
+cliffs_II,64,vbur_max_delta_qvbur_vburminconf,steric,0.72
+cliffs_II,65,vbur_vbur_min vbur_qvbur_max_min vbur_qvbur_max_vburminconf vbur_ovbur_max_min vbur_ovbur_max_vburminconf vbur_near_vbur_min vbur_near_vbur_vburminconf,steric,0.844
+cliffs_II,66,vbur_far_vbur_min vbur_far_vbur_vburminconf,steric,0.33
+cliffs_II,67,vbur_far_vtot_min vbur_far_vtot_vburminconf,steric,0.292
+cliffs_II,68,sterimol_L_min,steric,0.7
+cliffs_II,69,sterimol_burL_min,steric,0.62
+cliffs_II,70,sterimol_burL_boltz,steric,0.684
+cliffs_II,71,spindens_P_ra_boltz fukui_p_boltz,electronic,0.796
+cliffs_II,72,sterimol_B1_max sterimol_burB1_max,steric,0.594
+cliffs_II,73,vbur_qvtot_min_max,steric,0.196
+cliffs_II,74,vbur_qvtot_min_min sterimol_B1_min sterimol_burB1_min,steric,0.93
+cliffs_II,75,vbur_qvtot_min_boltz sterimol_B1_boltz sterimol_burB1_boltz,steric,0.69
+cliffs_II,76,sterimol_B1_vburminconf sterimol_burB1_vburminconf,steric,0.872
+cliffs_II,77,vbur_qvtot_min_vburminconf,steric,0.666
+cliffs_II,78,vbur_ratio_vbur_vtot_boltz,steric,0.61
+cliffs_II,79,sterimol_L_boltz,steric,0.788
+cliffs_II,80,sterimol_L_max sterimol_L_vburminconf,steric,0.676
+cliffs_II,81,sterimol_burB5_boltz,steric,0.844
+cliffs_II,82,sterimol_burB5_max,steric,0.482
+cliffs_II,83,vbur_max_delta_qvtot_boltz vbur_max_delta_qvtot_max,steric,0.352
+cliffs_II,84,vbur_max_delta_qvtot_vburminconf,steric,0.732
+cliffs_II,85,vbur_max_delta_qvtot_min,steric,0.418
+cliffs_II,86,sterimol_burB5_min,steric,0.78
+cliffs_II,87,sterimol_burB5_vburminconf,steric,0.496
+cliffs_II,88,sterimol_B5_boltz sterimol_B5_max,steric,0.738
+cliffs_II,89,sterimol_B5_min,steric,0.52
+cliffs_II,90,sterimol_B5_vburminconf,steric,0.546
+cliffs_II,91,E_solv_total_boltz Pint_P_int_boltz,dispersion/solvation,0.62
+cliffs_II,92,somo_rc_boltz,electronic,0.636
+cliffs_II,93,E_solv_cds_boltz,solvation,0.59
+cliffs_II,94,Pint_dP_boltz,dispersion,0.386
+cliffs_II,95,Pint_P_max_boltz,dispersion,0.36
+cliffs_II,96,vbur_vtot_boltz volume_boltz surface_area_boltz vbur_near_vtot_boltz vbur_near_vtot_min vbur_near_vtot_max vbur_near_vtot_vburminconf,steric,0.412
+cliffs_II,97,vbur_qvtot_max_boltz vbur_qvtot_max_min vbur_qvtot_max_max vbur_qvtot_max_vburminconf vbur_ovtot_max_boltz vbur_ovtot_max_min vbur_ovtot_max_max vbur_ovtot_max_vburminconf,steric,0.654
+cliffs_II,98,sphericity_boltz,steric,0.732
+cliffs_II,99,E_solv_elstat_boltz,solvation,0.448
+cliffs_II,100,spindens_P_rc_boltz fukui_m_boltz,electronic,0.63
+cliffs_II,101,nbo_bds_occ_max_boltz nbo_bds_occ_avg_boltz,electronic,0.786
+cliffs_II,102,nmr_P_boltz nmrtens_sxx_P_boltz nmrtens_syy_P_boltz,electronic,0.816
+cliffs_II,103,nmrtens_szz_P_boltz,electronic,0.61
+cliffs_II,104,efg_amp_P_boltz efgtens_zz_P_boltz,electronic,0.612
+cliffs_II,105,nbo_P_boltz nbo_P_ra_boltz,electronic,0.748
+cliffs_II,106,efgtens_xx_P_boltz,electronic,0.446
+cliffs_II,107,nbo_P_rc_boltz,electronic,0.552
+cliffs_II,108,efgtens_yy_P_boltz,electronic,0.536
+cliffs_III,1,qpoletens_yy_boltz,electrostatic,0.922
+cliffs_III,2,qpoletens_yy_vburminconf,electrostatic,0.466
+cliffs_III,5,dipolemoment_max,electrostatic,0.666
+cliffs_III,6,dipolemoment_vburminconf,electrostatic,0.344
+cliffs_III,7,dipolemoment_boltz,electrostatic,0.272
+cliffs_III,8,dipolemoment_min,electrostatic,0.366
+cliffs_III,9,qpole_amp_min qpoletens_xx_min qpoletens_zz_max,electrostatic,0.52
+cliffs_III,10,qpole_amp_vburminconf qpoletens_xx_vburminconf qpoletens_zz_vburminconf,electrostatic,0.464
+cliffs_III,11,qpole_amp_max qpoletens_xx_max qpoletens_zz_min,electrostatic,0.432
+cliffs_III,12,qpole_amp_boltz qpoletens_xx_boltz qpoletens_zz_boltz,electrostatic,0.87
+cliffs_III,13,fmo_e_lumo_boltz fmo_omega_boltz,electronic,0.91
+cliffs_III,14,somo_ra_boltz E_reduction_boltz,electronic,0.336
+cliffs_III,15,fmo_mu_boltz,electronic,0.664
+cliffs_III,16,fmo_eta_boltz,electronic,0.238
+cliffs_III,17,qpole_amp_delta qpoletens_xx_delta qpoletens_zz_delta,electrostatic,0.488
+cliffs_III,18,qpoletens_yy_delta,electrostatic,0.258
+cliffs_III,19,dipolemoment_delta,electrostatic,0.864
+cliffs_III,20,qpoletens_yy_min,electrostatic,0.378
+cliffs_III,21,qpoletens_yy_max,electrostatic,0.274
+cliffs_III,22,sterimol_burL_max,steric,0.58
+cliffs_III,23,sterimol_burL_vburminconf,steric,0.522
+cliffs_III,24,sterimol_B5_delta,steric,0.644
+cliffs_III,25,sterimol_burB5_delta,steric,0.75
+cliffs_III,26,sterimol_L_delta,steric,0.652
+cliffs_III,27,pyr_P_delta pyr_alpha_delta,steric,0.736
+cliffs_III,28,vbur_qvtot_max_delta vbur_max_delta_qvtot_delta vbur_ovtot_max_delta,steric,0.688
+cliffs_III,29,vbur_vbur_delta vbur_qvbur_max_delta vbur_max_delta_qvbur_delta vbur_far_vbur_delta,steric,0.566
+cliffs_III,30,vbur_near_vtot_delta vbur_far_vtot_max vbur_far_vtot_delta,steric,0.444
+cliffs_III,31,sterimol_B1_delta sterimol_burB1_delta,steric,0.99
+cliffs_III,32,vbur_qvtot_min_delta,steric,0.598
+cliffs_III,33,vbur_qvbur_min_delta,steric,0.23
+cliffs_III,34,vbur_near_vbur_delta,steric,0.334
+cliffs_III,35,vbur_ovbur_max_delta,steric,0.62
+cliffs_III,36,sterimol_burL_delta,steric,0.394
+cliffs_III,37,nuesp_P_boltz nbo_bd_e_avg_boltz,electronic,0.932
+cliffs_III,38,nbo_bd_e_max_boltz,electronic,0.868
+cliffs_III,39,vmin_vmin_boltz,electronic,0.896
+cliffs_III,40,nbo_lp_P_e_boltz,electronic,0.586
+cliffs_III,41,vmin_r_boltz,electronic,0.732
+cliffs_III,42,pyr_P_vburminconf pyr_alpha_vburminconf,steric,0.65
+cliffs_III,43,pyr_P_min pyr_alpha_max,steric,0.924
+cliffs_III,44,pyr_P_max pyr_alpha_min,steric,0.626
+cliffs_III,45,pyr_P_boltz pyr_alpha_boltz,steric,0.738
+cliffs_III,46,vbur_qvbur_min_min,steric,0.674
+cliffs_III,47,vbur_qvbur_min_vburminconf,steric,0.592
+cliffs_III,48,vbur_qvbur_min_boltz,steric,0.734
+cliffs_III,49,nbo_bd_occ_min_boltz,electronic,0.406
+cliffs_III,50,nbo_bd_occ_avg_boltz,electronic,0.434
+cliffs_III,51,nbo_lp_P_percent_s_boltz,electronic,0.29
+cliffs_III,52,nbo_lp_P_occ_boltz,electronic,0.782
+cliffs_III,53,nbo_bds_e_min_boltz nbo_bds_e_avg_boltz,electronic,0.96
+cliffs_III,54,fmo_e_homo_boltz E_oxidation_boltz,electronic,0.612
+cliffs_III,55,Pint_P_min_boltz,dispersion,0.564
+cliffs_III,56,vbur_ovbur_min_boltz vbur_ovbur_min_max vbur_ovbur_min_delta vbur_ovtot_min_boltz vbur_ovtot_min_max vbur_ovtot_min_delta,steric,0.66
+cliffs_III,57,vbur_qvbur_min_max,steric,0.476
+cliffs_III,58,vbur_vbur_boltz vbur_qvbur_max_boltz vbur_ovbur_max_boltz vbur_near_vbur_boltz,steric,1.0
+cliffs_III,59,vbur_far_vbur_boltz vbur_far_vtot_boltz,steric,0.572
+cliffs_III,60,vbur_vbur_max vbur_near_vbur_max,steric,0.394
+cliffs_III,61,vbur_qvbur_max_max vbur_max_delta_qvbur_max vbur_ovbur_max_max vbur_far_vbur_max,steric,0.61
+cliffs_III,62,vbur_max_delta_qvbur_boltz,steric,0.954
+cliffs_III,63,vbur_max_delta_qvbur_min,steric,0.228
+cliffs_III,64,vbur_max_delta_qvbur_vburminconf,steric,0.28
+cliffs_III,65,vbur_vbur_min vbur_qvbur_max_min vbur_qvbur_max_vburminconf vbur_ovbur_max_min vbur_ovbur_max_vburminconf vbur_near_vbur_min vbur_near_vbur_vburminconf,steric,0.762
+cliffs_III,66,vbur_far_vbur_min vbur_far_vbur_vburminconf,steric,0.222
+cliffs_III,67,vbur_far_vtot_min vbur_far_vtot_vburminconf,steric,0.554
+cliffs_III,68,sterimol_L_min,steric,0.59
+cliffs_III,69,sterimol_burL_min,steric,0.664
+cliffs_III,70,sterimol_burL_boltz,steric,0.438
+cliffs_III,71,spindens_P_ra_boltz fukui_p_boltz,electronic,0.634
+cliffs_III,72,sterimol_B1_max sterimol_burB1_max,steric,0.8
+cliffs_III,73,vbur_qvtot_min_max,steric,0.184
+cliffs_III,74,vbur_qvtot_min_min sterimol_B1_min sterimol_burB1_min,steric,0.83
+cliffs_III,75,vbur_qvtot_min_boltz sterimol_B1_boltz sterimol_burB1_boltz,steric,0.658
+cliffs_III,76,sterimol_B1_vburminconf sterimol_burB1_vburminconf,steric,0.678
+cliffs_III,77,vbur_qvtot_min_vburminconf,steric,0.324
+cliffs_III,78,vbur_ratio_vbur_vtot_boltz,steric,0.884
+cliffs_III,79,sterimol_L_boltz,steric,0.502
+cliffs_III,80,sterimol_L_max sterimol_L_vburminconf,steric,0.632
+cliffs_III,81,sterimol_burB5_boltz,steric,0.652
+cliffs_III,82,sterimol_burB5_max,steric,0.3
+cliffs_III,83,vbur_max_delta_qvtot_boltz vbur_max_delta_qvtot_max,steric,0.522
+cliffs_III,84,vbur_max_delta_qvtot_vburminconf,steric,0.642
+cliffs_III,85,vbur_max_delta_qvtot_min,steric,0.362
+cliffs_III,86,sterimol_burB5_min,steric,0.716
+cliffs_III,87,sterimol_burB5_vburminconf,steric,0.486
+cliffs_III,88,sterimol_B5_boltz sterimol_B5_max,steric,0.732
+cliffs_III,89,sterimol_B5_min,steric,0.736
+cliffs_III,90,sterimol_B5_vburminconf,steric,0.554
+cliffs_III,91,E_solv_total_boltz Pint_P_int_boltz,dispersion/solvation,0.45
+cliffs_III,92,somo_rc_boltz,electronic,0.326
+cliffs_III,93,E_solv_cds_boltz,solvation,0.45
+cliffs_III,94,Pint_dP_boltz,dispersion,0.27
+cliffs_III,95,Pint_P_max_boltz,dispersion,0.692
+cliffs_III,96,vbur_vtot_boltz volume_boltz surface_area_boltz vbur_near_vtot_boltz vbur_near_vtot_min vbur_near_vtot_max vbur_near_vtot_vburminconf,steric,0.578
+cliffs_III,97,vbur_qvtot_max_boltz vbur_qvtot_max_min vbur_qvtot_max_max vbur_qvtot_max_vburminconf vbur_ovtot_max_boltz vbur_ovtot_max_min vbur_ovtot_max_max vbur_ovtot_max_vburminconf,steric,0.616
+cliffs_III,98,sphericity_boltz,steric,0.948
+cliffs_III,99,E_solv_elstat_boltz,solvation,0.352
+cliffs_III,100,spindens_P_rc_boltz fukui_m_boltz,electronic,0.522
+cliffs_III,101,nbo_bds_occ_max_boltz nbo_bds_occ_avg_boltz,electronic,0.716
+cliffs_III,102,nmr_P_boltz nmrtens_sxx_P_boltz nmrtens_syy_P_boltz,electronic,0.774
+cliffs_III,103,nmrtens_szz_P_boltz,electronic,0.702
+cliffs_III,104,efg_amp_P_boltz efgtens_zz_P_boltz,electronic,0.62
+cliffs_III,105,nbo_P_boltz nbo_P_ra_boltz,electronic,0.526
+cliffs_III,106,efgtens_xx_P_boltz,electronic,0.27
+cliffs_III,107,nbo_P_rc_boltz,electronic,0.448
+cliffs_III,108,efgtens_yy_P_boltz,electronic,0.428
+cliffs_IV,1,qpoletens_yy_boltz,electrostatic,0.946
+cliffs_IV,2,qpoletens_yy_vburminconf,electrostatic,0.662
+cliffs_IV,5,dipolemoment_max,electrostatic,0.592
+cliffs_IV,6,dipolemoment_vburminconf,electrostatic,0.684
+cliffs_IV,7,dipolemoment_boltz,electrostatic,0.69
+cliffs_IV,8,dipolemoment_min,electrostatic,0.53
+cliffs_IV,9,qpole_amp_min qpoletens_xx_min qpoletens_zz_max,electrostatic,0.886
+cliffs_IV,10,qpole_amp_vburminconf qpoletens_xx_vburminconf qpoletens_zz_vburminconf,electrostatic,0.978
+cliffs_IV,11,qpole_amp_max qpoletens_xx_max qpoletens_zz_min,electrostatic,0.586
+cliffs_IV,12,qpole_amp_boltz qpoletens_xx_boltz qpoletens_zz_boltz,electrostatic,0.676
+cliffs_IV,13,fmo_e_lumo_boltz fmo_omega_boltz,electronic,0.802
+cliffs_IV,14,somo_ra_boltz E_reduction_boltz,electronic,0.38
+cliffs_IV,15,fmo_mu_boltz,electronic,0.378
+cliffs_IV,16,fmo_eta_boltz,electronic,0.336
+cliffs_IV,17,qpole_amp_delta qpoletens_xx_delta qpoletens_zz_delta,electrostatic,0.63
+cliffs_IV,18,qpoletens_yy_delta,electrostatic,0.306
+cliffs_IV,19,dipolemoment_delta,electrostatic,0.572
+cliffs_IV,20,qpoletens_yy_min,electrostatic,0.54
+cliffs_IV,21,qpoletens_yy_max,electrostatic,0.502
+cliffs_IV,22,sterimol_burL_max,steric,0.492
+cliffs_IV,23,sterimol_burL_vburminconf,steric,0.694
+cliffs_IV,24,sterimol_B5_delta,steric,0.73
+cliffs_IV,25,sterimol_burB5_delta,steric,0.938
+cliffs_IV,26,sterimol_L_delta,steric,0.516
+cliffs_IV,27,pyr_P_delta pyr_alpha_delta,steric,0.918
+cliffs_IV,28,vbur_qvtot_max_delta vbur_max_delta_qvtot_delta vbur_ovtot_max_delta,steric,0.916
+cliffs_IV,29,vbur_vbur_delta vbur_qvbur_max_delta vbur_max_delta_qvbur_delta vbur_far_vbur_delta,steric,0.668
+cliffs_IV,30,vbur_near_vtot_delta vbur_far_vtot_max vbur_far_vtot_delta,steric,0.434
+cliffs_IV,31,sterimol_B1_delta sterimol_burB1_delta,steric,0.964
+cliffs_IV,32,vbur_qvtot_min_delta,steric,0.474
+cliffs_IV,33,vbur_qvbur_min_delta,steric,0.566
+cliffs_IV,34,vbur_near_vbur_delta,steric,0.552
+cliffs_IV,35,vbur_ovbur_max_delta,steric,0.71
+cliffs_IV,36,sterimol_burL_delta,steric,0.552
+cliffs_IV,37,nuesp_P_boltz nbo_bd_e_avg_boltz,electronic,0.76
+cliffs_IV,38,nbo_bd_e_max_boltz,electronic,0.746
+cliffs_IV,39,vmin_vmin_boltz,electronic,0.58
+cliffs_IV,40,nbo_lp_P_e_boltz,electronic,0.666
+cliffs_IV,41,vmin_r_boltz,electronic,0.88
+cliffs_IV,42,pyr_P_vburminconf pyr_alpha_vburminconf,steric,0.724
+cliffs_IV,43,pyr_P_min pyr_alpha_max,steric,0.99
+cliffs_IV,44,pyr_P_max pyr_alpha_min,steric,0.618
+cliffs_IV,45,pyr_P_boltz pyr_alpha_boltz,steric,0.86
+cliffs_IV,46,vbur_qvbur_min_min,steric,0.53
+cliffs_IV,47,vbur_qvbur_min_vburminconf,steric,0.566
+cliffs_IV,48,vbur_qvbur_min_boltz,steric,0.852
+cliffs_IV,49,nbo_bd_occ_min_boltz,electronic,0.5
+cliffs_IV,50,nbo_bd_occ_avg_boltz,electronic,0.56
+cliffs_IV,51,nbo_lp_P_percent_s_boltz,electronic,0.738
+cliffs_IV,52,nbo_lp_P_occ_boltz,electronic,0.84
+cliffs_IV,53,nbo_bds_e_min_boltz nbo_bds_e_avg_boltz,electronic,0.984
+cliffs_IV,54,fmo_e_homo_boltz E_oxidation_boltz,electronic,0.54
+cliffs_IV,55,Pint_P_min_boltz,dispersion,0.73
+cliffs_IV,56,vbur_ovbur_min_boltz vbur_ovbur_min_max vbur_ovbur_min_delta vbur_ovtot_min_boltz vbur_ovtot_min_max vbur_ovtot_min_delta,steric,0.792
+cliffs_IV,57,vbur_qvbur_min_max,steric,0.488
+cliffs_IV,58,vbur_vbur_boltz vbur_qvbur_max_boltz vbur_ovbur_max_boltz vbur_near_vbur_boltz,steric,0.942
+cliffs_IV,59,vbur_far_vbur_boltz vbur_far_vtot_boltz,steric,0.602
+cliffs_IV,60,vbur_vbur_max vbur_near_vbur_max,steric,0.398
+cliffs_IV,61,vbur_qvbur_max_max vbur_max_delta_qvbur_max vbur_ovbur_max_max vbur_far_vbur_max,steric,0.674
+cliffs_IV,62,vbur_max_delta_qvbur_boltz,steric,0.432
+cliffs_IV,63,vbur_max_delta_qvbur_min,steric,0.542
+cliffs_IV,64,vbur_max_delta_qvbur_vburminconf,steric,0.514
+cliffs_IV,65,vbur_vbur_min vbur_qvbur_max_min vbur_qvbur_max_vburminconf vbur_ovbur_max_min vbur_ovbur_max_vburminconf vbur_near_vbur_min vbur_near_vbur_vburminconf,steric,0.77
+cliffs_IV,66,vbur_far_vbur_min vbur_far_vbur_vburminconf,steric,0.554
+cliffs_IV,67,vbur_far_vtot_min vbur_far_vtot_vburminconf,steric,0.62
+cliffs_IV,68,sterimol_L_min,steric,0.598
+cliffs_IV,69,sterimol_burL_min,steric,0.562
+cliffs_IV,70,sterimol_burL_boltz,steric,0.532
+cliffs_IV,71,spindens_P_ra_boltz fukui_p_boltz,electronic,0.886
+cliffs_IV,72,sterimol_B1_max sterimol_burB1_max,steric,0.6
+cliffs_IV,73,vbur_qvtot_min_max,steric,0.498
+cliffs_IV,74,vbur_qvtot_min_min sterimol_B1_min sterimol_burB1_min,steric,0.922
+cliffs_IV,75,vbur_qvtot_min_boltz sterimol_B1_boltz sterimol_burB1_boltz,steric,0.88
+cliffs_IV,76,sterimol_B1_vburminconf sterimol_burB1_vburminconf,steric,0.828
+cliffs_IV,77,vbur_qvtot_min_vburminconf,steric,0.456
+cliffs_IV,78,vbur_ratio_vbur_vtot_boltz,steric,0.948
+cliffs_IV,79,sterimol_L_boltz,steric,0.522
+cliffs_IV,80,sterimol_L_max sterimol_L_vburminconf,steric,0.572
+cliffs_IV,81,sterimol_burB5_boltz,steric,0.752
+cliffs_IV,82,sterimol_burB5_max,steric,0.394
+cliffs_IV,83,vbur_max_delta_qvtot_boltz vbur_max_delta_qvtot_max,steric,0.572
+cliffs_IV,84,vbur_max_delta_qvtot_vburminconf,steric,0.79
+cliffs_IV,85,vbur_max_delta_qvtot_min,steric,0.386
+cliffs_IV,86,sterimol_burB5_min,steric,0.868
+cliffs_IV,87,sterimol_burB5_vburminconf,steric,0.706
+cliffs_IV,88,sterimol_B5_boltz sterimol_B5_max,steric,0.57
+cliffs_IV,89,sterimol_B5_min,steric,0.578
+cliffs_IV,90,sterimol_B5_vburminconf,steric,0.5
+cliffs_IV,91,E_solv_total_boltz Pint_P_int_boltz,dispersion/solvation,0.492
+cliffs_IV,92,somo_rc_boltz,electronic,0.466
+cliffs_IV,93,E_solv_cds_boltz,solvation,0.52
+cliffs_IV,94,Pint_dP_boltz,dispersion,0.298
+cliffs_IV,95,Pint_P_max_boltz,dispersion,0.6
+cliffs_IV,96,vbur_vtot_boltz volume_boltz surface_area_boltz vbur_near_vtot_boltz vbur_near_vtot_min vbur_near_vtot_max vbur_near_vtot_vburminconf,steric,0.452
+cliffs_IV,97,vbur_qvtot_max_boltz vbur_qvtot_max_min vbur_qvtot_max_max vbur_qvtot_max_vburminconf vbur_ovtot_max_boltz vbur_ovtot_max_min vbur_ovtot_max_max vbur_ovtot_max_vburminconf,steric,0.786
+cliffs_IV,98,sphericity_boltz,steric,0.96
+cliffs_IV,99,E_solv_elstat_boltz,solvation,0.458
+cliffs_IV,100,spindens_P_rc_boltz fukui_m_boltz,electronic,0.69
+cliffs_IV,101,nbo_bds_occ_max_boltz nbo_bds_occ_avg_boltz,electronic,0.788
+cliffs_IV,102,nmr_P_boltz nmrtens_sxx_P_boltz nmrtens_syy_P_boltz,electronic,0.772
+cliffs_IV,103,nmrtens_szz_P_boltz,electronic,0.588
+cliffs_IV,104,efg_amp_P_boltz efgtens_zz_P_boltz,electronic,0.586
+cliffs_IV,105,nbo_P_boltz nbo_P_ra_boltz,electronic,0.738
+cliffs_IV,106,efgtens_xx_P_boltz,electronic,0.482
+cliffs_IV,107,nbo_P_rc_boltz,electronic,0.628
+cliffs_IV,108,efgtens_yy_P_boltz,electronic,0.632
+cliffs_V,1,qpoletens_yy_boltz,electrostatic,0.592
+cliffs_V,2,qpoletens_yy_vburminconf,electrostatic,0.54
+cliffs_V,5,dipolemoment_max,electrostatic,0.788
+cliffs_V,6,dipolemoment_vburminconf,electrostatic,0.384
+cliffs_V,7,dipolemoment_boltz,electrostatic,0.624
+cliffs_V,8,dipolemoment_min,electrostatic,0.382
+cliffs_V,9,qpole_amp_min qpoletens_xx_min qpoletens_zz_max,electrostatic,0.564
+cliffs_V,10,qpole_amp_vburminconf qpoletens_xx_vburminconf qpoletens_zz_vburminconf,electrostatic,0.702
+cliffs_V,11,qpole_amp_max qpoletens_xx_max qpoletens_zz_min,electrostatic,0.452
+cliffs_V,12,qpole_amp_boltz qpoletens_xx_boltz qpoletens_zz_boltz,electrostatic,0.63
+cliffs_V,13,fmo_e_lumo_boltz fmo_omega_boltz,electronic,0.954
+cliffs_V,14,somo_ra_boltz E_reduction_boltz,electronic,0.448
+cliffs_V,15,fmo_mu_boltz,electronic,0.818
+cliffs_V,16,fmo_eta_boltz,electronic,0.36
+cliffs_V,17,qpole_amp_delta qpoletens_xx_delta qpoletens_zz_delta,electrostatic,0.476
+cliffs_V,18,qpoletens_yy_delta,electrostatic,0.298
+cliffs_V,19,dipolemoment_delta,electrostatic,0.776
+cliffs_V,20,qpoletens_yy_min,electrostatic,0.498
+cliffs_V,21,qpoletens_yy_max,electrostatic,0.446
+cliffs_V,22,sterimol_burL_max,steric,0.456
+cliffs_V,23,sterimol_burL_vburminconf,steric,0.516
+cliffs_V,24,sterimol_B5_delta,steric,0.422
+cliffs_V,25,sterimol_burB5_delta,steric,0.434
+cliffs_V,26,sterimol_L_delta,steric,0.264
+cliffs_V,27,pyr_P_delta pyr_alpha_delta,steric,0.444
+cliffs_V,28,vbur_qvtot_max_delta vbur_max_delta_qvtot_delta vbur_ovtot_max_delta,steric,0.728
+cliffs_V,29,vbur_vbur_delta vbur_qvbur_max_delta vbur_max_delta_qvbur_delta vbur_far_vbur_delta,steric,0.784
+cliffs_V,30,vbur_near_vtot_delta vbur_far_vtot_max vbur_far_vtot_delta,steric,0.512
+cliffs_V,31,sterimol_B1_delta sterimol_burB1_delta,steric,0.82
+cliffs_V,32,vbur_qvtot_min_delta,steric,0.788
+cliffs_V,33,vbur_qvbur_min_delta,steric,0.358
+cliffs_V,34,vbur_near_vbur_delta,steric,0.31
+cliffs_V,35,vbur_ovbur_max_delta,steric,0.488
+cliffs_V,36,sterimol_burL_delta,steric,0.524
+cliffs_V,37,nuesp_P_boltz nbo_bd_e_avg_boltz,electronic,0.774
+cliffs_V,38,nbo_bd_e_max_boltz,electronic,0.516
+cliffs_V,39,vmin_vmin_boltz,electronic,0.812
+cliffs_V,40,nbo_lp_P_e_boltz,electronic,0.68
+cliffs_V,41,vmin_r_boltz,electronic,0.638
+cliffs_V,42,pyr_P_vburminconf pyr_alpha_vburminconf,steric,0.504
+cliffs_V,43,pyr_P_min pyr_alpha_max,steric,0.57
+cliffs_V,44,pyr_P_max pyr_alpha_min,steric,0.564
+cliffs_V,45,pyr_P_boltz pyr_alpha_boltz,steric,0.528
+cliffs_V,46,vbur_qvbur_min_min,steric,0.756
+cliffs_V,47,vbur_qvbur_min_vburminconf,steric,0.488
+cliffs_V,48,vbur_qvbur_min_boltz,steric,0.94
+cliffs_V,49,nbo_bd_occ_min_boltz,electronic,0.538
+cliffs_V,50,nbo_bd_occ_avg_boltz,electronic,0.61
+cliffs_V,51,nbo_lp_P_percent_s_boltz,electronic,0.514
+cliffs_V,52,nbo_lp_P_occ_boltz,electronic,0.632
+cliffs_V,53,nbo_bds_e_min_boltz nbo_bds_e_avg_boltz,electronic,0.994
+cliffs_V,54,fmo_e_homo_boltz E_oxidation_boltz,electronic,0.584
+cliffs_V,55,Pint_P_min_boltz,dispersion,0.604
+cliffs_V,56,vbur_ovbur_min_boltz vbur_ovbur_min_max vbur_ovbur_min_delta vbur_ovtot_min_boltz vbur_ovtot_min_max vbur_ovtot_min_delta,steric,0.914
+cliffs_V,57,vbur_qvbur_min_max,steric,0.636
+cliffs_V,58,vbur_vbur_boltz vbur_qvbur_max_boltz vbur_ovbur_max_boltz vbur_near_vbur_boltz,steric,0.642
+cliffs_V,59,vbur_far_vbur_boltz vbur_far_vtot_boltz,steric,0.308
+cliffs_V,60,vbur_vbur_max vbur_near_vbur_max,steric,0.336
+cliffs_V,61,vbur_qvbur_max_max vbur_max_delta_qvbur_max vbur_ovbur_max_max vbur_far_vbur_max,steric,0.65
+cliffs_V,62,vbur_max_delta_qvbur_boltz,steric,0.336
+cliffs_V,63,vbur_max_delta_qvbur_min,steric,0.312
+cliffs_V,64,vbur_max_delta_qvbur_vburminconf,steric,0.294
+cliffs_V,65,vbur_vbur_min vbur_qvbur_max_min vbur_qvbur_max_vburminconf vbur_ovbur_max_min vbur_ovbur_max_vburminconf vbur_near_vbur_min vbur_near_vbur_vburminconf,steric,0.792
+cliffs_V,66,vbur_far_vbur_min vbur_far_vbur_vburminconf,steric,0.346
+cliffs_V,67,vbur_far_vtot_min vbur_far_vtot_vburminconf,steric,0.806
+cliffs_V,68,sterimol_L_min,steric,0.206
+cliffs_V,69,sterimol_burL_min,steric,0.428
+cliffs_V,70,sterimol_burL_boltz,steric,0.356
+cliffs_V,71,spindens_P_ra_boltz fukui_p_boltz,electronic,0.64
+cliffs_V,72,sterimol_B1_max sterimol_burB1_max,steric,0.524
+cliffs_V,73,vbur_qvtot_min_max,steric,0.232
+cliffs_V,74,vbur_qvtot_min_min sterimol_B1_min sterimol_burB1_min,steric,0.744
+cliffs_V,75,vbur_qvtot_min_boltz sterimol_B1_boltz sterimol_burB1_boltz,steric,0.534
+cliffs_V,76,sterimol_B1_vburminconf sterimol_burB1_vburminconf,steric,0.484
+cliffs_V,77,vbur_qvtot_min_vburminconf,steric,0.296
+cliffs_V,78,vbur_ratio_vbur_vtot_boltz,steric,0.314
+cliffs_V,79,sterimol_L_boltz,steric,0.452
+cliffs_V,80,sterimol_L_max sterimol_L_vburminconf,steric,0.522
+cliffs_V,81,sterimol_burB5_boltz,steric,0.546
+cliffs_V,82,sterimol_burB5_max,steric,0.57
+cliffs_V,83,vbur_max_delta_qvtot_boltz vbur_max_delta_qvtot_max,steric,0.488
+cliffs_V,84,vbur_max_delta_qvtot_vburminconf,steric,0.59
+cliffs_V,85,vbur_max_delta_qvtot_min,steric,0.396
+cliffs_V,86,sterimol_burB5_min,steric,0.626
+cliffs_V,87,sterimol_burB5_vburminconf,steric,0.456
+cliffs_V,88,sterimol_B5_boltz sterimol_B5_max,steric,0.674
+cliffs_V,89,sterimol_B5_min,steric,0.598
+cliffs_V,90,sterimol_B5_vburminconf,steric,0.352
+cliffs_V,91,E_solv_total_boltz Pint_P_int_boltz,dispersion/solvation,0.434
+cliffs_V,92,somo_rc_boltz,electronic,0.366
+cliffs_V,93,E_solv_cds_boltz,solvation,0.454
+cliffs_V,94,Pint_dP_boltz,dispersion,0.23
+cliffs_V,95,Pint_P_max_boltz,dispersion,0.592
+cliffs_V,96,vbur_vtot_boltz volume_boltz surface_area_boltz vbur_near_vtot_boltz vbur_near_vtot_min vbur_near_vtot_max vbur_near_vtot_vburminconf,steric,0.3
+cliffs_V,97,vbur_qvtot_max_boltz vbur_qvtot_max_min vbur_qvtot_max_max vbur_qvtot_max_vburminconf vbur_ovtot_max_boltz vbur_ovtot_max_min vbur_ovtot_max_max vbur_ovtot_max_vburminconf,steric,0.62
+cliffs_V,98,sphericity_boltz,steric,0.648
+cliffs_V,99,E_solv_elstat_boltz,solvation,0.64
+cliffs_V,100,spindens_P_rc_boltz fukui_m_boltz,electronic,0.586
+cliffs_V,101,nbo_bds_occ_max_boltz nbo_bds_occ_avg_boltz,electronic,0.976
+cliffs_V,102,nmr_P_boltz nmrtens_sxx_P_boltz nmrtens_syy_P_boltz,electronic,0.626
+cliffs_V,103,nmrtens_szz_P_boltz,electronic,0.436
+cliffs_V,104,efg_amp_P_boltz efgtens_zz_P_boltz,electronic,0.62
+cliffs_V,105,nbo_P_boltz nbo_P_ra_boltz,electronic,0.504
+cliffs_V,106,efgtens_xx_P_boltz,electronic,0.73
+cliffs_V,107,nbo_P_rc_boltz,electronic,0.512
+cliffs_V,108,efgtens_yy_P_boltz,electronic,0.656
+cliffs_VII,1,qpoletens_yy_boltz,electrostatic,0.636
+cliffs_VII,2,qpoletens_yy_vburminconf,electrostatic,0.678
+cliffs_VII,5,dipolemoment_max,electrostatic,0.424
+cliffs_VII,6,dipolemoment_vburminconf,electrostatic,0.5
+cliffs_VII,7,dipolemoment_boltz,electrostatic,0.65
+cliffs_VII,8,dipolemoment_min,electrostatic,0.678
+cliffs_VII,9,qpole_amp_min qpoletens_xx_min qpoletens_zz_max,electrostatic,0.574
+cliffs_VII,10,qpole_amp_vburminconf qpoletens_xx_vburminconf qpoletens_zz_vburminconf,electrostatic,0.658
+cliffs_VII,11,qpole_amp_max qpoletens_xx_max qpoletens_zz_min,electrostatic,0.566
+cliffs_VII,12,qpole_amp_boltz qpoletens_xx_boltz qpoletens_zz_boltz,electrostatic,0.712
+cliffs_VII,13,fmo_e_lumo_boltz fmo_omega_boltz,electronic,0.782
+cliffs_VII,14,somo_ra_boltz E_reduction_boltz,electronic,0.736
+cliffs_VII,15,fmo_mu_boltz,electronic,0.628
+cliffs_VII,16,fmo_eta_boltz,electronic,0.656
+cliffs_VII,17,qpole_amp_delta qpoletens_xx_delta qpoletens_zz_delta,electrostatic,0.838
+cliffs_VII,18,qpoletens_yy_delta,electrostatic,0.784
+cliffs_VII,19,dipolemoment_delta,electrostatic,0.82
+cliffs_VII,20,qpoletens_yy_min,electrostatic,0.834
+cliffs_VII,21,qpoletens_yy_max,electrostatic,0.528
+cliffs_VII,22,sterimol_burL_max,steric,0.582
+cliffs_VII,23,sterimol_burL_vburminconf,steric,0.614
+cliffs_VII,24,sterimol_B5_delta,steric,0.414
+cliffs_VII,25,sterimol_burB5_delta,steric,0.636
+cliffs_VII,26,sterimol_L_delta,steric,0.51
+cliffs_VII,27,pyr_P_delta pyr_alpha_delta,steric,0.894
+cliffs_VII,28,vbur_qvtot_max_delta vbur_max_delta_qvtot_delta vbur_ovtot_max_delta,steric,0.624
+cliffs_VII,29,vbur_vbur_delta vbur_qvbur_max_delta vbur_max_delta_qvbur_delta vbur_far_vbur_delta,steric,0.536
+cliffs_VII,30,vbur_near_vtot_delta vbur_far_vtot_max vbur_far_vtot_delta,steric,0.41
+cliffs_VII,31,sterimol_B1_delta sterimol_burB1_delta,steric,0.538
+cliffs_VII,32,vbur_qvtot_min_delta,steric,0.612
+cliffs_VII,33,vbur_qvbur_min_delta,steric,0.572
+cliffs_VII,34,vbur_near_vbur_delta,steric,0.37
+cliffs_VII,35,vbur_ovbur_max_delta,steric,0.46
+cliffs_VII,36,sterimol_burL_delta,steric,0.534
+cliffs_VII,37,nuesp_P_boltz nbo_bd_e_avg_boltz,electronic,0.27
+cliffs_VII,38,nbo_bd_e_max_boltz,electronic,0.318
+cliffs_VII,39,vmin_vmin_boltz,electronic,0.534
+cliffs_VII,40,nbo_lp_P_e_boltz,electronic,0.36
+cliffs_VII,41,vmin_r_boltz,electronic,0.668
+cliffs_VII,42,pyr_P_vburminconf pyr_alpha_vburminconf,steric,0.776
+cliffs_VII,43,pyr_P_min pyr_alpha_max,steric,0.308
+cliffs_VII,44,pyr_P_max pyr_alpha_min,steric,0.846
+cliffs_VII,45,pyr_P_boltz pyr_alpha_boltz,steric,0.638
+cliffs_VII,46,vbur_qvbur_min_min,steric,0.536
+cliffs_VII,47,vbur_qvbur_min_vburminconf,steric,0.366
+cliffs_VII,48,vbur_qvbur_min_boltz,steric,0.742
+cliffs_VII,49,nbo_bd_occ_min_boltz,electronic,0.542
+cliffs_VII,50,nbo_bd_occ_avg_boltz,electronic,0.45
+cliffs_VII,51,nbo_lp_P_percent_s_boltz,electronic,0.304
+cliffs_VII,52,nbo_lp_P_occ_boltz,electronic,0.504
+cliffs_VII,53,nbo_bds_e_min_boltz nbo_bds_e_avg_boltz,electronic,0.756
+cliffs_VII,54,fmo_e_homo_boltz E_oxidation_boltz,electronic,0.568
+cliffs_VII,55,Pint_P_min_boltz,dispersion,0.508
+cliffs_VII,56,vbur_ovbur_min_boltz vbur_ovbur_min_max vbur_ovbur_min_delta vbur_ovtot_min_boltz vbur_ovtot_min_max vbur_ovtot_min_delta,steric,0.902
+cliffs_VII,57,vbur_qvbur_min_max,steric,0.73
+cliffs_VII,58,vbur_vbur_boltz vbur_qvbur_max_boltz vbur_ovbur_max_boltz vbur_near_vbur_boltz,steric,0.604
+cliffs_VII,59,vbur_far_vbur_boltz vbur_far_vtot_boltz,steric,0.448
+cliffs_VII,60,vbur_vbur_max vbur_near_vbur_max,steric,0.388
+cliffs_VII,61,vbur_qvbur_max_max vbur_max_delta_qvbur_max vbur_ovbur_max_max vbur_far_vbur_max,steric,0.782
+cliffs_VII,62,vbur_max_delta_qvbur_boltz,steric,0.54
+cliffs_VII,63,vbur_max_delta_qvbur_min,steric,0.726
+cliffs_VII,64,vbur_max_delta_qvbur_vburminconf,steric,0.478
+cliffs_VII,65,vbur_vbur_min vbur_qvbur_max_min vbur_qvbur_max_vburminconf vbur_ovbur_max_min vbur_ovbur_max_vburminconf vbur_near_vbur_min vbur_near_vbur_vburminconf,steric,0.672
+cliffs_VII,66,vbur_far_vbur_min vbur_far_vbur_vburminconf,steric,0.77
+cliffs_VII,67,vbur_far_vtot_min vbur_far_vtot_vburminconf,steric,0.818
+cliffs_VII,68,sterimol_L_min,steric,0.458
+cliffs_VII,69,sterimol_burL_min,steric,0.568
+cliffs_VII,70,sterimol_burL_boltz,steric,0.722
+cliffs_VII,71,spindens_P_ra_boltz fukui_p_boltz,electronic,0.92
+cliffs_VII,72,sterimol_B1_max sterimol_burB1_max,steric,0.576
+cliffs_VII,73,vbur_qvtot_min_max,steric,0.394
+cliffs_VII,74,vbur_qvtot_min_min sterimol_B1_min sterimol_burB1_min,steric,0.594
+cliffs_VII,75,vbur_qvtot_min_boltz sterimol_B1_boltz sterimol_burB1_boltz,steric,0.656
+cliffs_VII,76,sterimol_B1_vburminconf sterimol_burB1_vburminconf,steric,0.974
+cliffs_VII,77,vbur_qvtot_min_vburminconf,steric,0.656
+cliffs_VII,78,vbur_ratio_vbur_vtot_boltz,steric,0.416
+cliffs_VII,79,sterimol_L_boltz,steric,0.474
+cliffs_VII,80,sterimol_L_max sterimol_L_vburminconf,steric,0.612
+cliffs_VII,81,sterimol_burB5_boltz,steric,0.674
+cliffs_VII,82,sterimol_burB5_max,steric,0.558
+cliffs_VII,83,vbur_max_delta_qvtot_boltz vbur_max_delta_qvtot_max,steric,0.668
+cliffs_VII,84,vbur_max_delta_qvtot_vburminconf,steric,0.278
+cliffs_VII,85,vbur_max_delta_qvtot_min,steric,0.546
+cliffs_VII,86,sterimol_burB5_min,steric,0.464
+cliffs_VII,87,sterimol_burB5_vburminconf,steric,0.592
+cliffs_VII,88,sterimol_B5_boltz sterimol_B5_max,steric,0.8
+cliffs_VII,89,sterimol_B5_min,steric,0.626
+cliffs_VII,90,sterimol_B5_vburminconf,steric,0.406
+cliffs_VII,91,E_solv_total_boltz Pint_P_int_boltz,dispersion/solvation,0.4
+cliffs_VII,92,somo_rc_boltz,electronic,0.648
+cliffs_VII,93,E_solv_cds_boltz,solvation,0.486
+cliffs_VII,94,Pint_dP_boltz,dispersion,0.396
+cliffs_VII,95,Pint_P_max_boltz,dispersion,0.804
+cliffs_VII,96,vbur_vtot_boltz volume_boltz surface_area_boltz vbur_near_vtot_boltz vbur_near_vtot_min vbur_near_vtot_max vbur_near_vtot_vburminconf,steric,0.504
+cliffs_VII,97,vbur_qvtot_max_boltz vbur_qvtot_max_min vbur_qvtot_max_max vbur_qvtot_max_vburminconf vbur_ovtot_max_boltz vbur_ovtot_max_min vbur_ovtot_max_max vbur_ovtot_max_vburminconf,steric,0.946
+cliffs_VII,98,sphericity_boltz,steric,0.352
+cliffs_VII,99,E_solv_elstat_boltz,solvation,0.572
+cliffs_VII,100,spindens_P_rc_boltz fukui_m_boltz,electronic,0.846
+cliffs_VII,101,nbo_bds_occ_max_boltz nbo_bds_occ_avg_boltz,electronic,0.774
+cliffs_VII,102,nmr_P_boltz nmrtens_sxx_P_boltz nmrtens_syy_P_boltz,electronic,0.636
+cliffs_VII,103,nmrtens_szz_P_boltz,electronic,0.522
+cliffs_VII,104,efg_amp_P_boltz efgtens_zz_P_boltz,electronic,0.662
+cliffs_VII,105,nbo_P_boltz nbo_P_ra_boltz,electronic,0.362
+cliffs_VII,106,efgtens_xx_P_boltz,electronic,0.646
+cliffs_VII,107,nbo_P_rc_boltz,electronic,0.736
+cliffs_VII,108,efgtens_yy_P_boltz,electronic,0.626
+cliffs_VIII,1,qpoletens_yy_boltz,electrostatic,0.8
+cliffs_VIII,2,qpoletens_yy_vburminconf,electrostatic,0.358
+cliffs_VIII,5,dipolemoment_max,electrostatic,0.094
+cliffs_VIII,6,dipolemoment_vburminconf,electrostatic,0.216
+cliffs_VIII,7,dipolemoment_boltz,electrostatic,0.412
+cliffs_VIII,8,dipolemoment_min,electrostatic,0.454
+cliffs_VIII,9,qpole_amp_min qpoletens_xx_min qpoletens_zz_max,electrostatic,0.776
+cliffs_VIII,10,qpole_amp_vburminconf qpoletens_xx_vburminconf qpoletens_zz_vburminconf,electrostatic,0.44
+cliffs_VIII,11,qpole_amp_max qpoletens_xx_max qpoletens_zz_min,electrostatic,0.192
+cliffs_VIII,12,qpole_amp_boltz qpoletens_xx_boltz qpoletens_zz_boltz,electrostatic,0.436
+cliffs_VIII,13,fmo_e_lumo_boltz fmo_omega_boltz,electronic,0.296
+cliffs_VIII,14,somo_ra_boltz E_reduction_boltz,electronic,0.216
+cliffs_VIII,15,fmo_mu_boltz,electronic,0.286
+cliffs_VIII,16,fmo_eta_boltz,electronic,0.174
+cliffs_VIII,17,qpole_amp_delta qpoletens_xx_delta qpoletens_zz_delta,electrostatic,0.866
+cliffs_VIII,18,qpoletens_yy_delta,electrostatic,0.278
+cliffs_VIII,19,dipolemoment_delta,electrostatic,0.356
+cliffs_VIII,20,qpoletens_yy_min,electrostatic,0.47
+cliffs_VIII,21,qpoletens_yy_max,electrostatic,0.268
+cliffs_VIII,22,sterimol_burL_max,steric,0.388
+cliffs_VIII,23,sterimol_burL_vburminconf,steric,0.324
+cliffs_VIII,24,sterimol_B5_delta,steric,0.158
+cliffs_VIII,25,sterimol_burB5_delta,steric,0.416
+cliffs_VIII,26,sterimol_L_delta,steric,0.32
+cliffs_VIII,27,pyr_P_delta pyr_alpha_delta,steric,0.742
+cliffs_VIII,28,vbur_qvtot_max_delta vbur_max_delta_qvtot_delta vbur_ovtot_max_delta,steric,0.506
+cliffs_VIII,29,vbur_vbur_delta vbur_qvbur_max_delta vbur_max_delta_qvbur_delta vbur_far_vbur_delta,steric,0.352
+cliffs_VIII,30,vbur_near_vtot_delta vbur_far_vtot_max vbur_far_vtot_delta,steric,0.444
+cliffs_VIII,31,sterimol_B1_delta sterimol_burB1_delta,steric,0.55
+cliffs_VIII,32,vbur_qvtot_min_delta,steric,0.44
+cliffs_VIII,33,vbur_qvbur_min_delta,steric,0.194
+cliffs_VIII,34,vbur_near_vbur_delta,steric,0.378
+cliffs_VIII,35,vbur_ovbur_max_delta,steric,0.408
+cliffs_VIII,36,sterimol_burL_delta,steric,0.398
+cliffs_VIII,37,nuesp_P_boltz nbo_bd_e_avg_boltz,electronic,0.776
+cliffs_VIII,38,nbo_bd_e_max_boltz,electronic,0.682
+cliffs_VIII,39,vmin_vmin_boltz,electronic,0.708
+cliffs_VIII,40,nbo_lp_P_e_boltz,electronic,0.478
+cliffs_VIII,41,vmin_r_boltz,electronic,0.44
+cliffs_VIII,42,pyr_P_vburminconf pyr_alpha_vburminconf,steric,0.502
+cliffs_VIII,43,pyr_P_min pyr_alpha_max,steric,0.75
+cliffs_VIII,44,pyr_P_max pyr_alpha_min,steric,0.32
+cliffs_VIII,45,pyr_P_boltz pyr_alpha_boltz,steric,0.528
+cliffs_VIII,46,vbur_qvbur_min_min,steric,0.516
+cliffs_VIII,47,vbur_qvbur_min_vburminconf,steric,0.34
+cliffs_VIII,48,vbur_qvbur_min_boltz,steric,0.284
+cliffs_VIII,49,nbo_bd_occ_min_boltz,electronic,0.876
+cliffs_VIII,50,nbo_bd_occ_avg_boltz,electronic,0.702
+cliffs_VIII,51,nbo_lp_P_percent_s_boltz,electronic,0.35
+cliffs_VIII,52,nbo_lp_P_occ_boltz,electronic,0.45
+cliffs_VIII,53,nbo_bds_e_min_boltz nbo_bds_e_avg_boltz,electronic,0.54
+cliffs_VIII,54,fmo_e_homo_boltz E_oxidation_boltz,electronic,0.402
+cliffs_VIII,55,Pint_P_min_boltz,dispersion,0.476
+cliffs_VIII,56,vbur_ovbur_min_boltz vbur_ovbur_min_max vbur_ovbur_min_delta vbur_ovtot_min_boltz vbur_ovtot_min_max vbur_ovtot_min_delta,steric,0.404
+cliffs_VIII,57,vbur_qvbur_min_max,steric,0.25
+cliffs_VIII,58,vbur_vbur_boltz vbur_qvbur_max_boltz vbur_ovbur_max_boltz vbur_near_vbur_boltz,steric,0.978
+cliffs_VIII,59,vbur_far_vbur_boltz vbur_far_vtot_boltz,steric,0.712
+cliffs_VIII,60,vbur_vbur_max vbur_near_vbur_max,steric,0.272
+cliffs_VIII,61,vbur_qvbur_max_max vbur_max_delta_qvbur_max vbur_ovbur_max_max vbur_far_vbur_max,steric,0.48
+cliffs_VIII,62,vbur_max_delta_qvbur_boltz,steric,0.502
+cliffs_VIII,63,vbur_max_delta_qvbur_min,steric,0.422
+cliffs_VIII,64,vbur_max_delta_qvbur_vburminconf,steric,0.606
+cliffs_VIII,65,vbur_vbur_min vbur_qvbur_max_min vbur_qvbur_max_vburminconf vbur_ovbur_max_min vbur_ovbur_max_vburminconf vbur_near_vbur_min vbur_near_vbur_vburminconf,steric,0.94
+cliffs_VIII,66,vbur_far_vbur_min vbur_far_vbur_vburminconf,steric,0.138
+cliffs_VIII,67,vbur_far_vtot_min vbur_far_vtot_vburminconf,steric,0.188
+cliffs_VIII,68,sterimol_L_min,steric,0.29
+cliffs_VIII,69,sterimol_burL_min,steric,0.362
+cliffs_VIII,70,sterimol_burL_boltz,steric,0.526
+cliffs_VIII,71,spindens_P_ra_boltz fukui_p_boltz,electronic,0.736
+cliffs_VIII,72,sterimol_B1_max sterimol_burB1_max,steric,0.32
+cliffs_VIII,73,vbur_qvtot_min_max,steric,0.466
+cliffs_VIII,74,vbur_qvtot_min_min sterimol_B1_min sterimol_burB1_min,steric,0.682
+cliffs_VIII,75,vbur_qvtot_min_boltz sterimol_B1_boltz sterimol_burB1_boltz,steric,0.56
+cliffs_VIII,76,sterimol_B1_vburminconf sterimol_burB1_vburminconf,steric,0.478
+cliffs_VIII,77,vbur_qvtot_min_vburminconf,steric,0.342
+cliffs_VIII,78,vbur_ratio_vbur_vtot_boltz,steric,0.636
+cliffs_VIII,79,sterimol_L_boltz,steric,0.258
+cliffs_VIII,80,sterimol_L_max sterimol_L_vburminconf,steric,0.372
+cliffs_VIII,81,sterimol_burB5_boltz,steric,0.342
+cliffs_VIII,82,sterimol_burB5_max,steric,0.222
+cliffs_VIII,83,vbur_max_delta_qvtot_boltz vbur_max_delta_qvtot_max,steric,0.382
+cliffs_VIII,84,vbur_max_delta_qvtot_vburminconf,steric,0.35
+cliffs_VIII,85,vbur_max_delta_qvtot_min,steric,0.222
+cliffs_VIII,86,sterimol_burB5_min,steric,0.37
+cliffs_VIII,87,sterimol_burB5_vburminconf,steric,0.378
+cliffs_VIII,88,sterimol_B5_boltz sterimol_B5_max,steric,0.266
+cliffs_VIII,89,sterimol_B5_min,steric,0.286
+cliffs_VIII,90,sterimol_B5_vburminconf,steric,0.342
+cliffs_VIII,91,E_solv_total_boltz Pint_P_int_boltz,dispersion/solvation,0.336
+cliffs_VIII,92,somo_rc_boltz,electronic,0.224
+cliffs_VIII,93,E_solv_cds_boltz,solvation,0.472
+cliffs_VIII,94,Pint_dP_boltz,dispersion,0.22
+cliffs_VIII,95,Pint_P_max_boltz,dispersion,0.746
+cliffs_VIII,96,vbur_vtot_boltz volume_boltz surface_area_boltz vbur_near_vtot_boltz vbur_near_vtot_min vbur_near_vtot_max vbur_near_vtot_vburminconf,steric,0.442
+cliffs_VIII,97,vbur_qvtot_max_boltz vbur_qvtot_max_min vbur_qvtot_max_max vbur_qvtot_max_vburminconf vbur_ovtot_max_boltz vbur_ovtot_max_min vbur_ovtot_max_max vbur_ovtot_max_vburminconf,steric,0.582
+cliffs_VIII,98,sphericity_boltz,steric,0.186
+cliffs_VIII,99,E_solv_elstat_boltz,solvation,0.584
+cliffs_VIII,100,spindens_P_rc_boltz fukui_m_boltz,electronic,0.576
+cliffs_VIII,101,nbo_bds_occ_max_boltz nbo_bds_occ_avg_boltz,electronic,0.27
+cliffs_VIII,102,nmr_P_boltz nmrtens_sxx_P_boltz nmrtens_syy_P_boltz,electronic,0.574
+cliffs_VIII,103,nmrtens_szz_P_boltz,electronic,0.396
+cliffs_VIII,104,efg_amp_P_boltz efgtens_zz_P_boltz,electronic,0.638
+cliffs_VIII,105,nbo_P_boltz nbo_P_ra_boltz,electronic,0.74
+cliffs_VIII,106,efgtens_xx_P_boltz,electronic,0.26
+cliffs_VIII,107,nbo_P_rc_boltz,electronic,0.278
+cliffs_VIII,108,efgtens_yy_P_boltz,electronic,0.354
+cliffs_IX,1,qpoletens_yy_boltz,electrostatic,0.34
+cliffs_IX,2,qpoletens_yy_vburminconf,electrostatic,0.218
+cliffs_IX,5,dipolemoment_max,electrostatic,0.146
+cliffs_IX,6,dipolemoment_vburminconf,electrostatic,0.078
+cliffs_IX,7,dipolemoment_boltz,electrostatic,0.232
+cliffs_IX,8,dipolemoment_min,electrostatic,0.232
+cliffs_IX,9,qpole_amp_min qpoletens_xx_min qpoletens_zz_max,electrostatic,0.472
+cliffs_IX,10,qpole_amp_vburminconf qpoletens_xx_vburminconf qpoletens_zz_vburminconf,electrostatic,0.25
+cliffs_IX,11,qpole_amp_max qpoletens_xx_max qpoletens_zz_min,electrostatic,0.128
+cliffs_IX,12,qpole_amp_boltz qpoletens_xx_boltz qpoletens_zz_boltz,electrostatic,0.14
+cliffs_IX,13,fmo_e_lumo_boltz fmo_omega_boltz,electronic,0.132
+cliffs_IX,14,somo_ra_boltz E_reduction_boltz,electronic,0.152
+cliffs_IX,15,fmo_mu_boltz,electronic,0.124
+cliffs_IX,16,fmo_eta_boltz,electronic,0.172
+cliffs_IX,17,qpole_amp_delta qpoletens_xx_delta qpoletens_zz_delta,electrostatic,0.638
+cliffs_IX,18,qpoletens_yy_delta,electrostatic,0.18
+cliffs_IX,19,dipolemoment_delta,electrostatic,0.364
+cliffs_IX,20,qpoletens_yy_min,electrostatic,0.268
+cliffs_IX,21,qpoletens_yy_max,electrostatic,0.158
+cliffs_IX,22,sterimol_burL_max,steric,0.124
+cliffs_IX,23,sterimol_burL_vburminconf,steric,0.346
+cliffs_IX,24,sterimol_B5_delta,steric,0.154
+cliffs_IX,25,sterimol_burB5_delta,steric,0.164
+cliffs_IX,26,sterimol_L_delta,steric,0.258
+cliffs_IX,27,pyr_P_delta pyr_alpha_delta,steric,0.264
+cliffs_IX,28,vbur_qvtot_max_delta vbur_max_delta_qvtot_delta vbur_ovtot_max_delta,steric,0.182
+cliffs_IX,29,vbur_vbur_delta vbur_qvbur_max_delta vbur_max_delta_qvbur_delta vbur_far_vbur_delta,steric,0.262
+cliffs_IX,30,vbur_near_vtot_delta vbur_far_vtot_max vbur_far_vtot_delta,steric,0.114
+cliffs_IX,31,sterimol_B1_delta sterimol_burB1_delta,steric,0.302
+cliffs_IX,32,vbur_qvtot_min_delta,steric,0.118
+cliffs_IX,33,vbur_qvbur_min_delta,steric,0.154
+cliffs_IX,34,vbur_near_vbur_delta,steric,0.126
+cliffs_IX,35,vbur_ovbur_max_delta,steric,0.188
+cliffs_IX,36,sterimol_burL_delta,steric,0.464
+cliffs_IX,37,nuesp_P_boltz nbo_bd_e_avg_boltz,electronic,0.174
+cliffs_IX,38,nbo_bd_e_max_boltz,electronic,0.218
+cliffs_IX,39,vmin_vmin_boltz,electronic,0.28
+cliffs_IX,40,nbo_lp_P_e_boltz,electronic,0.176
+cliffs_IX,41,vmin_r_boltz,electronic,0.14
+cliffs_IX,42,pyr_P_vburminconf pyr_alpha_vburminconf,steric,0.718
+cliffs_IX,43,pyr_P_min pyr_alpha_max,steric,0.382
+cliffs_IX,44,pyr_P_max pyr_alpha_min,steric,0.156
+cliffs_IX,45,pyr_P_boltz pyr_alpha_boltz,steric,0.218
+cliffs_IX,46,vbur_qvbur_min_min,steric,0.076
+cliffs_IX,47,vbur_qvbur_min_vburminconf,steric,0.176
+cliffs_IX,48,vbur_qvbur_min_boltz,steric,0.352
+cliffs_IX,49,nbo_bd_occ_min_boltz,electronic,0.686
+cliffs_IX,50,nbo_bd_occ_avg_boltz,electronic,0.348
+cliffs_IX,51,nbo_lp_P_percent_s_boltz,electronic,0.1
+cliffs_IX,52,nbo_lp_P_occ_boltz,electronic,0.156
+cliffs_IX,53,nbo_bds_e_min_boltz nbo_bds_e_avg_boltz,electronic,0.24
+cliffs_IX,54,fmo_e_homo_boltz E_oxidation_boltz,electronic,0.438
+cliffs_IX,55,Pint_P_min_boltz,dispersion,0.278
+cliffs_IX,56,vbur_ovbur_min_boltz vbur_ovbur_min_max vbur_ovbur_min_delta vbur_ovtot_min_boltz vbur_ovtot_min_max vbur_ovtot_min_delta,steric,0.676
+cliffs_IX,57,vbur_qvbur_min_max,steric,0.136
+cliffs_IX,58,vbur_vbur_boltz vbur_qvbur_max_boltz vbur_ovbur_max_boltz vbur_near_vbur_boltz,steric,0.958
+cliffs_IX,59,vbur_far_vbur_boltz vbur_far_vtot_boltz,steric,0.092
+cliffs_IX,60,vbur_vbur_max vbur_near_vbur_max,steric,0.31
+cliffs_IX,61,vbur_qvbur_max_max vbur_max_delta_qvbur_max vbur_ovbur_max_max vbur_far_vbur_max,steric,0.502
+cliffs_IX,62,vbur_max_delta_qvbur_boltz,steric,0.246
+cliffs_IX,63,vbur_max_delta_qvbur_min,steric,0.076
+cliffs_IX,64,vbur_max_delta_qvbur_vburminconf,steric,0.052
+cliffs_IX,65,vbur_vbur_min vbur_qvbur_max_min vbur_qvbur_max_vburminconf vbur_ovbur_max_min vbur_ovbur_max_vburminconf vbur_near_vbur_min vbur_near_vbur_vburminconf,steric,0.864
+cliffs_IX,66,vbur_far_vbur_min vbur_far_vbur_vburminconf,steric,0.08
+cliffs_IX,67,vbur_far_vtot_min vbur_far_vtot_vburminconf,steric,0.064
+cliffs_IX,68,sterimol_L_min,steric,0.32
+cliffs_IX,69,sterimol_burL_min,steric,0.658
+cliffs_IX,70,sterimol_burL_boltz,steric,0.274
+cliffs_IX,71,spindens_P_ra_boltz fukui_p_boltz,electronic,0.472
+cliffs_IX,72,sterimol_B1_max sterimol_burB1_max,steric,0.276
+cliffs_IX,73,vbur_qvtot_min_max,steric,0.272
+cliffs_IX,74,vbur_qvtot_min_min sterimol_B1_min sterimol_burB1_min,steric,0.396
+cliffs_IX,75,vbur_qvtot_min_boltz sterimol_B1_boltz sterimol_burB1_boltz,steric,0.596
+cliffs_IX,76,sterimol_B1_vburminconf sterimol_burB1_vburminconf,steric,0.672
+cliffs_IX,77,vbur_qvtot_min_vburminconf,steric,0.32
+cliffs_IX,78,vbur_ratio_vbur_vtot_boltz,steric,0.468
+cliffs_IX,79,sterimol_L_boltz,steric,0.244
+cliffs_IX,80,sterimol_L_max sterimol_L_vburminconf,steric,0.174
+cliffs_IX,81,sterimol_burB5_boltz,steric,0.252
+cliffs_IX,82,sterimol_burB5_max,steric,0.128
+cliffs_IX,83,vbur_max_delta_qvtot_boltz vbur_max_delta_qvtot_max,steric,0.074
+cliffs_IX,84,vbur_max_delta_qvtot_vburminconf,steric,0.042
+cliffs_IX,85,vbur_max_delta_qvtot_min,steric,0.046
+cliffs_IX,86,sterimol_burB5_min,steric,0.328
+cliffs_IX,87,sterimol_burB5_vburminconf,steric,0.242
+cliffs_IX,88,sterimol_B5_boltz sterimol_B5_max,steric,0.326
+cliffs_IX,89,sterimol_B5_min,steric,0.348
+cliffs_IX,90,sterimol_B5_vburminconf,steric,0.24
+cliffs_IX,91,E_solv_total_boltz Pint_P_int_boltz,dispersion/solvation,0.062
+cliffs_IX,92,somo_rc_boltz,electronic,0.074
+cliffs_IX,93,E_solv_cds_boltz,solvation,0.146
+cliffs_IX,94,Pint_dP_boltz,dispersion,0.078
+cliffs_IX,95,Pint_P_max_boltz,dispersion,0.046
+cliffs_IX,96,vbur_vtot_boltz volume_boltz surface_area_boltz vbur_near_vtot_boltz vbur_near_vtot_min vbur_near_vtot_max vbur_near_vtot_vburminconf,steric,0.096
+cliffs_IX,97,vbur_qvtot_max_boltz vbur_qvtot_max_min vbur_qvtot_max_max vbur_qvtot_max_vburminconf vbur_ovtot_max_boltz vbur_ovtot_max_min vbur_ovtot_max_max vbur_ovtot_max_vburminconf,steric,0.13
+cliffs_IX,98,sphericity_boltz,steric,0.314
+cliffs_IX,99,E_solv_elstat_boltz,solvation,0.052
+cliffs_IX,100,spindens_P_rc_boltz fukui_m_boltz,electronic,0.088
+cliffs_IX,101,nbo_bds_occ_max_boltz nbo_bds_occ_avg_boltz,electronic,0.722
+cliffs_IX,102,nmr_P_boltz nmrtens_sxx_P_boltz nmrtens_syy_P_boltz,electronic,0.526
+cliffs_IX,103,nmrtens_szz_P_boltz,electronic,0.4
+cliffs_IX,104,efg_amp_P_boltz efgtens_zz_P_boltz,electronic,0.294
+cliffs_IX,105,nbo_P_boltz nbo_P_ra_boltz,electronic,0.29
+cliffs_IX,106,efgtens_xx_P_boltz,electronic,0.412
+cliffs_IX,107,nbo_P_rc_boltz,electronic,0.148
+cliffs_IX,108,efgtens_yy_P_boltz,electronic,0.532
+cliffs_XI,1,qpoletens_yy_boltz,electrostatic,0.254
+cliffs_XI,2,qpoletens_yy_vburminconf,electrostatic,0.692
+cliffs_XI,5,dipolemoment_max,electrostatic,0.04
+cliffs_XI,6,dipolemoment_vburminconf,electrostatic,0.06
+cliffs_XI,7,dipolemoment_boltz,electrostatic,0.096
+cliffs_XI,8,dipolemoment_min,electrostatic,0.066
+cliffs_XI,9,qpole_amp_min qpoletens_xx_min qpoletens_zz_max,electrostatic,0.498
+cliffs_XI,10,qpole_amp_vburminconf qpoletens_xx_vburminconf qpoletens_zz_vburminconf,electrostatic,0.536
+cliffs_XI,11,qpole_amp_max qpoletens_xx_max qpoletens_zz_min,electrostatic,0.038
+cliffs_XI,12,qpole_amp_boltz qpoletens_xx_boltz qpoletens_zz_boltz,electrostatic,0.224
+cliffs_XI,13,fmo_e_lumo_boltz fmo_omega_boltz,electronic,0.09
+cliffs_XI,14,somo_ra_boltz E_reduction_boltz,electronic,0.044
+cliffs_XI,15,fmo_mu_boltz,electronic,0.048
+cliffs_XI,16,fmo_eta_boltz,electronic,0.03
+cliffs_XI,17,qpole_amp_delta qpoletens_xx_delta qpoletens_zz_delta,electrostatic,0.322
+cliffs_XI,18,qpoletens_yy_delta,electrostatic,0.02
+cliffs_XI,19,dipolemoment_delta,electrostatic,0.084
+cliffs_XI,20,qpoletens_yy_min,electrostatic,0.148
+cliffs_XI,21,qpoletens_yy_max,electrostatic,0.146
+cliffs_XI,22,sterimol_burL_max,steric,0.006
+cliffs_XI,23,sterimol_burL_vburminconf,steric,0.146
+cliffs_XI,24,sterimol_B5_delta,steric,0.076
+cliffs_XI,25,sterimol_burB5_delta,steric,0.062
+cliffs_XI,26,sterimol_L_delta,steric,0.064
+cliffs_XI,27,pyr_P_delta pyr_alpha_delta,steric,0.09
+cliffs_XI,28,vbur_qvtot_max_delta vbur_max_delta_qvtot_delta vbur_ovtot_max_delta,steric,0.222
+cliffs_XI,29,vbur_vbur_delta vbur_qvbur_max_delta vbur_max_delta_qvbur_delta vbur_far_vbur_delta,steric,0.386
+cliffs_XI,30,vbur_near_vtot_delta vbur_far_vtot_max vbur_far_vtot_delta,steric,0.414
+cliffs_XI,31,sterimol_B1_delta sterimol_burB1_delta,steric,0.182
+cliffs_XI,32,vbur_qvtot_min_delta,steric,0.094
+cliffs_XI,33,vbur_qvbur_min_delta,steric,0.06
+cliffs_XI,34,vbur_near_vbur_delta,steric,0.03
+cliffs_XI,35,vbur_ovbur_max_delta,steric,0.198
+cliffs_XI,36,sterimol_burL_delta,steric,0.052
+cliffs_XI,37,nuesp_P_boltz nbo_bd_e_avg_boltz,electronic,0.084
+cliffs_XI,38,nbo_bd_e_max_boltz,electronic,0.166
+cliffs_XI,39,vmin_vmin_boltz,electronic,0.044
+cliffs_XI,40,nbo_lp_P_e_boltz,electronic,0.03
+cliffs_XI,41,vmin_r_boltz,electronic,0.1
+cliffs_XI,42,pyr_P_vburminconf pyr_alpha_vburminconf,steric,0.558
+cliffs_XI,43,pyr_P_min pyr_alpha_max,steric,0.98
+cliffs_XI,44,pyr_P_max pyr_alpha_min,steric,0.246
+cliffs_XI,45,pyr_P_boltz pyr_alpha_boltz,steric,0.564
+cliffs_XI,46,vbur_qvbur_min_min,steric,0.028
+cliffs_XI,47,vbur_qvbur_min_vburminconf,steric,0.084
+cliffs_XI,48,vbur_qvbur_min_boltz,steric,0.13
+cliffs_XI,49,nbo_bd_occ_min_boltz,electronic,0.334
+cliffs_XI,50,nbo_bd_occ_avg_boltz,electronic,0.058
+cliffs_XI,51,nbo_lp_P_percent_s_boltz,electronic,0.064
+cliffs_XI,52,nbo_lp_P_occ_boltz,electronic,0.166
+cliffs_XI,53,nbo_bds_e_min_boltz nbo_bds_e_avg_boltz,electronic,0.69
+cliffs_XI,54,fmo_e_homo_boltz E_oxidation_boltz,electronic,0.076
+cliffs_XI,55,Pint_P_min_boltz,dispersion,0.272
+cliffs_XI,56,vbur_ovbur_min_boltz vbur_ovbur_min_max vbur_ovbur_min_delta vbur_ovtot_min_boltz vbur_ovtot_min_max vbur_ovtot_min_delta,steric,0.454
+cliffs_XI,57,vbur_qvbur_min_max,steric,0.112
+cliffs_XI,58,vbur_vbur_boltz vbur_qvbur_max_boltz vbur_ovbur_max_boltz vbur_near_vbur_boltz,steric,0.906
+cliffs_XI,59,vbur_far_vbur_boltz vbur_far_vtot_boltz,steric,0.476
+cliffs_XI,60,vbur_vbur_max vbur_near_vbur_max,steric,0.45
+cliffs_XI,61,vbur_qvbur_max_max vbur_max_delta_qvbur_max vbur_ovbur_max_max vbur_far_vbur_max,steric,0.608
+cliffs_XI,62,vbur_max_delta_qvbur_boltz,steric,0.308
+cliffs_XI,63,vbur_max_delta_qvbur_min,steric,0.156
+cliffs_XI,64,vbur_max_delta_qvbur_vburminconf,steric,0.204
+cliffs_XI,65,vbur_vbur_min vbur_qvbur_max_min vbur_qvbur_max_vburminconf vbur_ovbur_max_min vbur_ovbur_max_vburminconf vbur_near_vbur_min vbur_near_vbur_vburminconf,steric,0.586
+cliffs_XI,66,vbur_far_vbur_min vbur_far_vbur_vburminconf,steric,0.266
+cliffs_XI,67,vbur_far_vtot_min vbur_far_vtot_vburminconf,steric,0.08
+cliffs_XI,68,sterimol_L_min,steric,0.056
+cliffs_XI,69,sterimol_burL_min,steric,0.058
+cliffs_XI,70,sterimol_burL_boltz,steric,0.1
+cliffs_XI,71,spindens_P_ra_boltz fukui_p_boltz,electronic,0.806
+cliffs_XI,72,sterimol_B1_max sterimol_burB1_max,steric,0.252
+cliffs_XI,73,vbur_qvtot_min_max,steric,0.074
+cliffs_XI,74,vbur_qvtot_min_min sterimol_B1_min sterimol_burB1_min,steric,0.08
+cliffs_XI,75,vbur_qvtot_min_boltz sterimol_B1_boltz sterimol_burB1_boltz,steric,0.31
+cliffs_XI,76,sterimol_B1_vburminconf sterimol_burB1_vburminconf,steric,0.344
+cliffs_XI,77,vbur_qvtot_min_vburminconf,steric,0.052
+cliffs_XI,78,vbur_ratio_vbur_vtot_boltz,steric,0.036
+cliffs_XI,79,sterimol_L_boltz,steric,0.094
+cliffs_XI,80,sterimol_L_max sterimol_L_vburminconf,steric,0.094
+cliffs_XI,81,sterimol_burB5_boltz,steric,0.062
+cliffs_XI,82,sterimol_burB5_max,steric,0.028
+cliffs_XI,83,vbur_max_delta_qvtot_boltz vbur_max_delta_qvtot_max,steric,0.26
+cliffs_XI,84,vbur_max_delta_qvtot_vburminconf,steric,0.356
+cliffs_XI,85,vbur_max_delta_qvtot_min,steric,0.22
+cliffs_XI,86,sterimol_burB5_min,steric,0.102
+cliffs_XI,87,sterimol_burB5_vburminconf,steric,0.032
+cliffs_XI,88,sterimol_B5_boltz sterimol_B5_max,steric,0.106
+cliffs_XI,89,sterimol_B5_min,steric,0.126
+cliffs_XI,90,sterimol_B5_vburminconf,steric,0.114
+cliffs_XI,91,E_solv_total_boltz Pint_P_int_boltz,dispersion/solvation,0.022
+cliffs_XI,92,somo_rc_boltz,electronic,0.09
+cliffs_XI,93,E_solv_cds_boltz,solvation,0.078
+cliffs_XI,94,Pint_dP_boltz,dispersion,0.018
+cliffs_XI,95,Pint_P_max_boltz,dispersion,0.044
+cliffs_XI,96,vbur_vtot_boltz volume_boltz surface_area_boltz vbur_near_vtot_boltz vbur_near_vtot_min vbur_near_vtot_max vbur_near_vtot_vburminconf,steric,0.348
+cliffs_XI,97,vbur_qvtot_max_boltz vbur_qvtot_max_min vbur_qvtot_max_max vbur_qvtot_max_vburminconf vbur_ovtot_max_boltz vbur_ovtot_max_min vbur_ovtot_max_max vbur_ovtot_max_vburminconf,steric,0.34
+cliffs_XI,98,sphericity_boltz,steric,0.014
+cliffs_XI,99,E_solv_elstat_boltz,solvation,0.118
+cliffs_XI,100,spindens_P_rc_boltz fukui_m_boltz,electronic,0.044
+cliffs_XI,101,nbo_bds_occ_max_boltz nbo_bds_occ_avg_boltz,electronic,0.506
+cliffs_XI,102,nmr_P_boltz nmrtens_sxx_P_boltz nmrtens_syy_P_boltz,electronic,0.648
+cliffs_XI,103,nmrtens_szz_P_boltz,electronic,0.172
+cliffs_XI,104,efg_amp_P_boltz efgtens_zz_P_boltz,electronic,0.278
+cliffs_XI,105,nbo_P_boltz nbo_P_ra_boltz,electronic,0.256
+cliffs_XI,106,efgtens_xx_P_boltz,electronic,0.356
+cliffs_XI,107,nbo_P_rc_boltz,electronic,0.048
+cliffs_XI,108,efgtens_yy_P_boltz,electronic,0.762
+cliffs_XII,1,qpoletens_yy_boltz,electrostatic,0.85
+cliffs_XII,2,qpoletens_yy_vburminconf,electrostatic,0.876
+cliffs_XII,5,dipolemoment_max,electrostatic,0.498
+cliffs_XII,6,dipolemoment_vburminconf,electrostatic,0.492
+cliffs_XII,7,dipolemoment_boltz,electrostatic,0.552
+cliffs_XII,8,dipolemoment_min,electrostatic,0.542
+cliffs_XII,9,qpole_amp_min qpoletens_xx_min qpoletens_zz_max,electrostatic,0.63
+cliffs_XII,10,qpole_amp_vburminconf qpoletens_xx_vburminconf qpoletens_zz_vburminconf,electrostatic,0.64
+cliffs_XII,11,qpole_amp_max qpoletens_xx_max qpoletens_zz_min,electrostatic,0.446
+cliffs_XII,12,qpole_amp_boltz qpoletens_xx_boltz qpoletens_zz_boltz,electrostatic,0.622
+cliffs_XII,13,fmo_e_lumo_boltz fmo_omega_boltz,electronic,0.658
+cliffs_XII,14,somo_ra_boltz E_reduction_boltz,electronic,0.564
+cliffs_XII,15,fmo_mu_boltz,electronic,0.614
+cliffs_XII,16,fmo_eta_boltz,electronic,0.582
+cliffs_XII,17,qpole_amp_delta qpoletens_xx_delta qpoletens_zz_delta,electrostatic,0.646
+cliffs_XII,18,qpoletens_yy_delta,electrostatic,0.49
+cliffs_XII,19,dipolemoment_delta,electrostatic,0.688
+cliffs_XII,20,qpoletens_yy_min,electrostatic,0.598
+cliffs_XII,21,qpoletens_yy_max,electrostatic,0.442
+cliffs_XII,22,sterimol_burL_max,steric,0.38
+cliffs_XII,23,sterimol_burL_vburminconf,steric,0.712
+cliffs_XII,24,sterimol_B5_delta,steric,0.56
+cliffs_XII,25,sterimol_burB5_delta,steric,0.734
+cliffs_XII,26,sterimol_L_delta,steric,0.628
+cliffs_XII,27,pyr_P_delta pyr_alpha_delta,steric,0.546
+cliffs_XII,28,vbur_qvtot_max_delta vbur_max_delta_qvtot_delta vbur_ovtot_max_delta,steric,0.772
+cliffs_XII,29,vbur_vbur_delta vbur_qvbur_max_delta vbur_max_delta_qvbur_delta vbur_far_vbur_delta,steric,0.71
+cliffs_XII,30,vbur_near_vtot_delta vbur_far_vtot_max vbur_far_vtot_delta,steric,0.382
+cliffs_XII,31,sterimol_B1_delta sterimol_burB1_delta,steric,0.53
+cliffs_XII,32,vbur_qvtot_min_delta,steric,0.318
+cliffs_XII,33,vbur_qvbur_min_delta,steric,0.448
+cliffs_XII,34,vbur_near_vbur_delta,steric,0.554
+cliffs_XII,35,vbur_ovbur_max_delta,steric,0.5
+cliffs_XII,36,sterimol_burL_delta,steric,0.6
+cliffs_XII,37,nuesp_P_boltz nbo_bd_e_avg_boltz,electronic,0.534
+cliffs_XII,38,nbo_bd_e_max_boltz,electronic,0.422
+cliffs_XII,39,vmin_vmin_boltz,electronic,0.398
+cliffs_XII,40,nbo_lp_P_e_boltz,electronic,0.302
+cliffs_XII,41,vmin_r_boltz,electronic,0.426
+cliffs_XII,42,pyr_P_vburminconf pyr_alpha_vburminconf,steric,0.756
+cliffs_XII,43,pyr_P_min pyr_alpha_max,steric,0.374
+cliffs_XII,44,pyr_P_max pyr_alpha_min,steric,0.348
+cliffs_XII,45,pyr_P_boltz pyr_alpha_boltz,steric,0.482
+cliffs_XII,46,vbur_qvbur_min_min,steric,0.62
+cliffs_XII,47,vbur_qvbur_min_vburminconf,steric,0.7
+cliffs_XII,48,vbur_qvbur_min_boltz,steric,0.472
+cliffs_XII,49,nbo_bd_occ_min_boltz,electronic,0.554
+cliffs_XII,50,nbo_bd_occ_avg_boltz,electronic,0.998
+cliffs_XII,51,nbo_lp_P_percent_s_boltz,electronic,0.318
+cliffs_XII,52,nbo_lp_P_occ_boltz,electronic,0.508
+cliffs_XII,53,nbo_bds_e_min_boltz nbo_bds_e_avg_boltz,electronic,0.656
+cliffs_XII,54,fmo_e_homo_boltz E_oxidation_boltz,electronic,0.618
+cliffs_XII,55,Pint_P_min_boltz,dispersion,0.488
+cliffs_XII,56,vbur_ovbur_min_boltz vbur_ovbur_min_max vbur_ovbur_min_delta vbur_ovtot_min_boltz vbur_ovtot_min_max vbur_ovtot_min_delta,steric,0.95
+cliffs_XII,57,vbur_qvbur_min_max,steric,0.356
+cliffs_XII,58,vbur_vbur_boltz vbur_qvbur_max_boltz vbur_ovbur_max_boltz vbur_near_vbur_boltz,steric,0.56
+cliffs_XII,59,vbur_far_vbur_boltz vbur_far_vtot_boltz,steric,0.452
+cliffs_XII,60,vbur_vbur_max vbur_near_vbur_max,steric,0.376
+cliffs_XII,61,vbur_qvbur_max_max vbur_max_delta_qvbur_max vbur_ovbur_max_max vbur_far_vbur_max,steric,0.754
+cliffs_XII,62,vbur_max_delta_qvbur_boltz,steric,0.374
+cliffs_XII,63,vbur_max_delta_qvbur_min,steric,0.34
+cliffs_XII,64,vbur_max_delta_qvbur_vburminconf,steric,0.812
+cliffs_XII,65,vbur_vbur_min vbur_qvbur_max_min vbur_qvbur_max_vburminconf vbur_ovbur_max_min vbur_ovbur_max_vburminconf vbur_near_vbur_min vbur_near_vbur_vburminconf,steric,0.74
+cliffs_XII,66,vbur_far_vbur_min vbur_far_vbur_vburminconf,steric,0.298
+cliffs_XII,67,vbur_far_vtot_min vbur_far_vtot_vburminconf,steric,0.418
+cliffs_XII,68,sterimol_L_min,steric,0.634
+cliffs_XII,69,sterimol_burL_min,steric,0.72
+cliffs_XII,70,sterimol_burL_boltz,steric,0.856
+cliffs_XII,71,spindens_P_ra_boltz fukui_p_boltz,electronic,0.66
+cliffs_XII,72,sterimol_B1_max sterimol_burB1_max,steric,0.728
+cliffs_XII,73,vbur_qvtot_min_max,steric,0.258
+cliffs_XII,74,vbur_qvtot_min_min sterimol_B1_min sterimol_burB1_min,steric,0.63
+cliffs_XII,75,vbur_qvtot_min_boltz sterimol_B1_boltz sterimol_burB1_boltz,steric,0.7
+cliffs_XII,76,sterimol_B1_vburminconf sterimol_burB1_vburminconf,steric,0.712
+cliffs_XII,77,vbur_qvtot_min_vburminconf,steric,0.436
+cliffs_XII,78,vbur_ratio_vbur_vtot_boltz,steric,0.482
+cliffs_XII,79,sterimol_L_boltz,steric,0.422
+cliffs_XII,80,sterimol_L_max sterimol_L_vburminconf,steric,0.752
+cliffs_XII,81,sterimol_burB5_boltz,steric,0.456
+cliffs_XII,82,sterimol_burB5_max,steric,0.378
+cliffs_XII,83,vbur_max_delta_qvtot_boltz vbur_max_delta_qvtot_max,steric,0.406
+cliffs_XII,84,vbur_max_delta_qvtot_vburminconf,steric,0.446
+cliffs_XII,85,vbur_max_delta_qvtot_min,steric,0.306
+cliffs_XII,86,sterimol_burB5_min,steric,0.434
+cliffs_XII,87,sterimol_burB5_vburminconf,steric,0.582
+cliffs_XII,88,sterimol_B5_boltz sterimol_B5_max,steric,0.718
+cliffs_XII,89,sterimol_B5_min,steric,0.27
+cliffs_XII,90,sterimol_B5_vburminconf,steric,0.348
+cliffs_XII,91,E_solv_total_boltz Pint_P_int_boltz,dispersion/solvation,0.63
+cliffs_XII,92,somo_rc_boltz,electronic,0.318
+cliffs_XII,93,E_solv_cds_boltz,solvation,0.932
+cliffs_XII,94,Pint_dP_boltz,dispersion,0.714
+cliffs_XII,95,Pint_P_max_boltz,dispersion,0.474
+cliffs_XII,96,vbur_vtot_boltz volume_boltz surface_area_boltz vbur_near_vtot_boltz vbur_near_vtot_min vbur_near_vtot_max vbur_near_vtot_vburminconf,steric,0.548
+cliffs_XII,97,vbur_qvtot_max_boltz vbur_qvtot_max_min vbur_qvtot_max_max vbur_qvtot_max_vburminconf vbur_ovtot_max_boltz vbur_ovtot_max_min vbur_ovtot_max_max vbur_ovtot_max_vburminconf,steric,0.57
+cliffs_XII,98,sphericity_boltz,steric,0.62
+cliffs_XII,99,E_solv_elstat_boltz,solvation,0.622
+cliffs_XII,100,spindens_P_rc_boltz fukui_m_boltz,electronic,0.524
+cliffs_XII,101,nbo_bds_occ_max_boltz nbo_bds_occ_avg_boltz,electronic,0.606
+cliffs_XII,102,nmr_P_boltz nmrtens_sxx_P_boltz nmrtens_syy_P_boltz,electronic,0.816
+cliffs_XII,103,nmrtens_szz_P_boltz,electronic,0.914
+cliffs_XII,104,efg_amp_P_boltz efgtens_zz_P_boltz,electronic,0.802
+cliffs_XII,105,nbo_P_boltz nbo_P_ra_boltz,electronic,0.386
+cliffs_XII,106,efgtens_xx_P_boltz,electronic,0.83
+cliffs_XII,107,nbo_P_rc_boltz,electronic,0.302
+cliffs_XII,108,efgtens_yy_P_boltz,electronic,0.594

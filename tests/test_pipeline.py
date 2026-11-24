@@ -33,3 +33,14 @@ def test_ligand_classes():
     assert ligand_class("c1ccc(cc1)OP(Oc1ccccc1)Oc1ccccc1") == "P-heteroatom"                 # P(OPh)3
     assert ligand_class("CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1") == "biaryl"  # XPhos
     assert ligand_class("CP(c1ccccc1)c1ccccc1") == "alkyl-aryl"                              # PMePh2
+
+
+def test_fast_stump_matches_tree_stump():
+    from ligsel.controls import FastBestStump
+    from ligsel.features import dropped_columns, feature_columns
+    from ligsel.models import Stump, load_dataset
+    cols = feature_columns("all", dropped_columns())
+    for ds in ("cliffs_I", "cliffs_RS2"):
+        X, y = load_dataset(ds)
+        a, b = Stump(candidates=cols).fit(X, y), FastBestStump(candidates=cols).fit(X, y)
+        assert a.selected_ == b.selected_ and (a.predict(X) == b.predict(X)).all()

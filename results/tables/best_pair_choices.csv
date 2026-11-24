@@ -1,0 +1,25 @@
+dataset,pair,share_of_folds
+cliffs_III,surface_area_boltz + vbur_vtot_boltz,1.0
+cliffs_II,surface_area_boltz + vbur_vtot_boltz,0.8
+cliffs_II,nbo_bds_e_avg_boltz + nbo_lp_P_occ_boltz,0.122
+cliffs_II,dipolemoment_delta + vbur_qvbur_min_min,0.056
+cliffs_IV,surface_area_boltz + vbur_vtot_boltz,1.0
+cliffs_IX,vbur_near_vbur_boltz + vbur_ovtot_min_boltz,0.767
+cliffs_IX,vbur_near_vbur_boltz + vbur_ovbur_min_boltz,0.067
+cliffs_IX,sterimol_L_delta + vbur_ovbur_max_boltz,0.033
+cliffs_I,vbur_near_vbur_min + vmin_r_boltz,1.0
+cliffs_VIII,qpole_amp_delta + vbur_far_vtot_boltz,0.585
+cliffs_VIII,nbo_P_boltz + vbur_near_vbur_boltz,0.151
+cliffs_VIII,nmrtens_syy_P_boltz + vbur_near_vbur_vburminconf,0.094
+cliffs_VII,Pint_P_max_boltz + vbur_ovtot_max_max,0.782
+cliffs_VII,Pint_P_max_boltz + vbur_ovtot_max_boltz,0.145
+cliffs_VII,Pint_P_max_boltz + vbur_ovtot_max_min,0.055
+cliffs_V,nbo_bds_e_avg_boltz + nbo_lp_P_occ_boltz,0.878
+cliffs_V,nbo_lp_P_e_boltz + vbur_qvbur_min_min,0.078
+cliffs_V,fmo_e_homo_boltz + nbo_bds_occ_avg_boltz,0.022
+cliffs_XII,E_solv_cds_boltz + nbo_bd_occ_avg_boltz,0.972
+cliffs_XII,nbo_bd_occ_avg_boltz + vbur_ovtot_max_delta,0.014
+cliffs_XII,nbo_bd_occ_avg_boltz + nmrtens_sxx_P_boltz,0.014
+cliffs_XI,nbo_bds_e_avg_boltz + pyr_alpha_max,0.533
+cliffs_XI,qpoletens_yy_min + vbur_ovbur_max_boltz,0.2
+cliffs_XI,pyr_alpha_boltz + vbur_ovbur_max_delta,0.033
