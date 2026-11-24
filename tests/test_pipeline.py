@@ -44,3 +44,13 @@ def test_fast_stump_matches_tree_stump():
         X, y = load_dataset(ds)
         a, b = Stump(candidates=cols).fit(X, y), FastBestStump(candidates=cols).fit(X, y)
         assert a.selected_ == b.selected_ and (a.predict(X) == b.predict(X)).all()
+
+
+def test_gradient_boost_actually_splits():
+    # regression test: with the library's default min_samples_leaf (20), every tree was a single leaf
+    from ligsel.features import dropped_columns, feature_columns
+    from ligsel.models import gradient_boost, load_dataset
+    X, y = load_dataset("cliffs_IX")
+    m = gradient_boost(feature_columns("all", dropped_columns())).fit(X, y)
+    trees = m.model_.best_estimator_._predictors
+    assert max(p.get_n_leaf_nodes() for t in trees for p in t) > 1

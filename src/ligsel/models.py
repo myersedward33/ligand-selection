@@ -176,8 +176,10 @@ def random_forest(columns):
 
 
 def gradient_boost(columns):
+    # min_samples_leaf must be searched: the library default (20) forbids any split below 40 training
+    # ligands, which left every tree a single leaf on all but one dataset (fixed 24 Nov, deviation log)
     gb = HistGradientBoostingClassifier(class_weight="balanced", random_state=SEED, max_iter=200)
-    grid = {"learning_rate": [0.05, 0.15], "max_depth": [2, 3]}
+    grid = {"learning_rate": [0.05, 0.15], "max_depth": [2, 3], "min_samples_leaf": [1, 3, 5]}
     return ColumnModel(GridSearchCV(gb, grid, scoring=MCC, cv=inner_cv()), columns)
 
 
