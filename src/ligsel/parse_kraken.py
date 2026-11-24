@@ -27,10 +27,11 @@ SPHERE_VOLUME_A3 = 4 / 3 * math.pi * SPHERE_RADIUS_A**3  # 179.59 A^3
 SUMMARIES = ("boltz", "min", "max", "delta", "vburminconf")
 ID_COLS = ("kraken_id", "smiles", "canonical_smiles", "inchikey")
 
-# Family of each property, by prefix. Checked by hand in step 15.
+# Family of each property, by prefix. Reviewed by Ted in step 15 (23 Nov 2026): pyramidalisation
+# steric, vmin_r electronic, whole-molecule volume and surface area steric.
 FAMILY_RULES = [
     ("sterimol_", "steric"), ("vbur_", "steric"), ("pyr_", "steric"),
-    ("volume", "molecular"), ("surface_area", "molecular"), ("sphericity", "molecular"),
+    ("volume", "steric"), ("surface_area", "steric"), ("sphericity", "molecular"),
     ("Pint_", "dispersion"),
     ("dipolemoment", "electrostatic"), ("qpole", "electrostatic"),
     ("vmin_", "electronic"), ("fmo_", "electronic"), ("somo_", "electronic"),
