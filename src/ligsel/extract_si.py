@@ -187,8 +187,18 @@ def run() -> pd.DataFrame:
     INTERIM_DIR.mkdir(parents=True, exist_ok=True)
     pages = {"cliffs_si": pdf_text("cliffs_si"), "jacs2022_si": pdf_text("jacs2022_si")}
     longs, report = [], []
+    printed = INTERIM_DIR / "si_tables_as_printed"
+    printed.mkdir(exist_ok=True)
     for source, table, title, cols, datasets, expected, how in TABLES:
         wide = extract_table(pages[source], source, table, title, cols, datasets)
+        # the same table with the PDF's own column order and headers, for checking by eye
+        if len(wide):
+            heads = {"cone_boltz": "Cone angle (Boltz)", "cone_min": "Cone angle (min)",
+                     "vbur_boltz": "%Vbur (Boltz)", "vbur_min": "%Vbur (min)", "buchwald": "Buchwald-type",
+                     "yield": "Yield (%)", **{c: f"{c[2:]} yield (%)" for c in cols if c.startswith("y_")}}
+            out = wide[["pdf_page", "kraken_id_si", "ligand"] + cols].rename(
+                columns={"pdf_page": "PDF page", "kraken_id_si": "Kraken ID", "ligand": "Ligand", **heads})
+            out.to_csv(printed / f"{source}_{table}.csv", index=False)
         longs.append(to_long(wide, datasets))
         report.append({"source": source, "si_table": table, "datasets": " ".join(datasets.values()),
                        "rows_found": len(wide), "rows_expected": expected, "expectation_from": how,
@@ -212,7 +222,7 @@ def run() -> pd.DataFrame:
     (RESULTS_DIR / "tables").mkdir(parents=True, exist_ok=True)
     rep.to_csv(RESULTS_DIR / "tables" / "si_extraction_report.csv", index=False)
     spot = yields.dropna(subset=["yield"]).sample(20, random_state=20261125)
-    spot[["dataset", "source", "si_table", "pdf_page", "kraken_id_si", "ligand", "vbur_min", "yield"]] \
+    spot[["dataset", "source", "si_table", "pdf_page", "kraken_id_si", "ligand", "vbur_boltz", "vbur_min", "yield"]] \
         .sort_values(["source", "pdf_page"]).to_csv(INTERIM_DIR / "spotcheck.csv", index=False)
     print(rep[["source", "si_table", "rows_found", "rows_expected", "names_rebuilt", "ok"]].to_string(index=False))
     if not rep["ok"].all():
