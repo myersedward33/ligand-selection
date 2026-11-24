@@ -44,12 +44,15 @@ def run() -> pd.DataFrame:
     j["active"] = (j["yield"] >= j["y_cut"].astype(float)).where(j["included"])
     j["id_2025"] = j["id_2025"].astype("Int64")
 
+    j["has_yield"] = j["yield"].notna()
     rep = (j.groupby(["dataset", "role", "metal"])
-            .agg(si_rows=("included", "size"), matched=("included", "sum"),
-                 active=("active", lambda s: int(s.sum())), y_cut=("y_cut", "first"))
+            .agg(si_rows=("included", "size"), no_yield=("has_yield", lambda s: int((~s).sum())),
+                 matched=("included", "sum"), active=("active", lambda s: int(s.sum())),
+                 y_cut=("y_cut", "first"))
             .reset_index())
     rep["inactive"] = rep["matched"] - rep["active"]
-    rep["match_rate"] = (rep["matched"] / rep["si_rows"]).round(3)
+    # match rate counts only rows the SI gives a yield for: a missing yield is not a failed match
+    rep["match_rate"] = (rep["matched"] / (rep["si_rows"] - rep["no_yield"])).round(3)
     order = {"primary": 0, "supplementary": 1, "control": 2, "external": 3, "excluded": 4}
     rep = rep.sort_values(["role", "dataset"], key=lambda s: s.map(order) if s.name == "role" else s)
 
