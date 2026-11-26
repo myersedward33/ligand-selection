@@ -1,4 +1,4 @@
-"""Steps 11-12: characterise the Kraken library before any modelling.
+"""Characterize the Kraken library before any modelling:
 
 Outputs
   results/figures/descriptor_correlation.png   clustered Spearman correlation of the 190 descriptors
