@@ -1,6 +1,6 @@
 # Pre-registration
 
-## 1. Question
+## 1. Research Question
 
 Across the reactivity-cliffs datasets, a single steric descriptor, %V_bur(min), classifies monodentate
 phosphines as active or inactive at a threshold near 32% (Newman-Stonebraker et al., *Science* 2021).
@@ -55,7 +55,7 @@ Thus, we exclude them from our study.
    the published numbers. Comparing a cross-validated model with an in-sample baseline would flatter
    the model.
 
-## 5. Gate (29 November)
+## 5. The Gate
 
 The baseline reproduces if, for at least 10 of the 11 primary datasets, the refitted threshold is within
 0.11 %V_bur(min) of Table S8 and the MCC is within 0.03. Otherwise stop and follow the kill criteria.
@@ -71,7 +71,7 @@ The baseline reproduces if, for at least 10 of the 11 primary datasets, the refi
 - Multivariate fits only where n >= 30 and the smaller class has >= 10 ligands. That keeps I, II, III,
   IV, V, VII, VIII, IX, XI and XII and leaves X (n = 28) to the univariate comparison.
 
-## 7. Hypotheses, stated before any result
+## 7. Hypotheses, stated pre-results
 
 - **H1 (primary).** The cross-validated elastic-net model beats the cross-validated baseline by at least
   0.10 MCC (leave-one-ligand-out) on a majority of the eligible primary datasets.
@@ -85,17 +85,14 @@ The baseline reproduces if, for at least 10 of the 11 primary datasets, the refi
 - **H5.** On the external test, the frozen primary model and the baseline at the published 31.89%
   threshold are each scored once, after the `frozen` tag.
 
-**Success criterion:** H1. H2–H5 are reported whatever they show. A result that "the single descriptor
-is as good as anything" is a finding, not a failure.
-
-## 8. Things that are fixed now
+## 8. Bug Fixes
 
 - Random seed 20261125 for every resampling step.
 - Stability selection: 500 bootstrap refits of the elastic-net model; a descriptor counts as selected
   above 80% selection frequency with a consistent sign.
 - The external test set is not loaded by any modelling code until after the `frozen` tag.
 
-## 8a. Frozen model and external test (H5)
+## 9. Frozen model and external test (H5)
 
 Added after the `prereg` tag and before any code loaded the external set (deviation log, 11/24/2026).
 H5 named "the frozen primary model" without saying what it is trained on; this section fixes that.
@@ -124,7 +121,7 @@ H5 named "the frozen primary model" without saying what it is trained on; this s
 - **Once.** The scoring code refuses to run without the tag, if the model or the code changed after the
   tag, if the data files changed, or if a result already exists. Any second run is a deviation.
 
-## 9. Deviations log
+## 10. Deviations log
 
 Any changes made after the `prereg` tag are provided here with accompanying date and reason.
 
