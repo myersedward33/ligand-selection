@@ -1,6 +1,6 @@
-"""Step 20a: which descriptors the models rely on.
+"""Which descriptors the models rely on:
 
-1. Stability selection (pre-registration s. 8): 500 class-stratified bootstrap refits of the full
+1. Stability selection: 500 class-stratified bootstrap refits of the full
    elastic-net procedure ('all' view, inner-CV tuning included) per eligible primary dataset. A
    descriptor is 'selected' with a frequency above 0.80 and a consistent sign (>= 90% of its
    selections the same sign). Because many descriptors are near-twins, each descriptor's cluster
