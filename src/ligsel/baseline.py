@@ -1,4 +1,4 @@
-"""Step 14: reproduce the published %V_bur(min) threshold classifier (the gate on 29 November).
+"""Reproducing the published %V_bur(min) threshold classifier:
 
 Method as in SigmanGroup/Threshold: a depth-1 DecisionTreeClassifier, class_weight='balanced',
 on one descriptor, with active = yield >= the dataset's cutoff, fitted and scored on the whole
