@@ -1,4 +1,4 @@
-"""Step 17: the model ladder, per dataset, under the pre-registered validation (docs/preregistration.md).
+"""The model ladder, per dataset, under the pre-registered validation (docs/preregistration.md):
 
 Rungs (every one reported):
   baseline_cv     depth-1 tree on %V_bur(min), threshold refitted inside each training fold
@@ -18,7 +18,7 @@ weights and scaled inside the training fold only.
 Validation: leave-one-ligand-out (primary) and 5 x repeated stratified 5-fold (reported). MCC is
 computed on the pooled out-of-fold predictions; LOO gets a bootstrap 95% interval over ligands.
 
-The external test set is never loaded: load_dataset refuses role 'external' (pre-registration s. 8).
+The external test set is never loaded: load_dataset refuses role 'external'.
 """
 from __future__ import annotations
 
@@ -49,7 +49,7 @@ MCC = make_scorer(matthews_corrcoef)
 VMIN, VBOLTZ = "vbur_vbur_min", "vbur_vbur_boltz"
 
 
-# ---------------------------------------------------------------- data
+# data
 def load_dataset(name: str) -> tuple[pd.DataFrame, np.ndarray]:
     cfg = load_config()["datasets"][name]
     if cfg["role"] == "external":
@@ -61,7 +61,7 @@ def load_dataset(name: str) -> tuple[pd.DataFrame, np.ndarray]:
     return X, j["active"].astype(bool).astype(int).values
 
 
-# ---------------------------------------------------------------- rungs
+# rungs
 def _balanced_weights(y):
     w = np.ones(len(y), float)
     for c in (0, 1):
