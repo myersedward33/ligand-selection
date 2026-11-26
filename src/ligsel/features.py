@@ -1,6 +1,6 @@
-"""Step 13: the five feature views and the checks behind them.
+"""Five feature views and checks behind them:
 
-The 28 properties Kraken summarises five ways are the only place the ensemble statistic can vary,
+The 28 properties Kraken summarizes five ways are the only place the ensemble statistic can vary,
 so the views differ only there; the 50 Boltzmann-only properties enter every view unchanged:
 
   boltz        28 Boltzmann averages            + 50 Boltzmann-only  (the population view)
