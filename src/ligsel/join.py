@@ -1,6 +1,6 @@
-"""Step 9: join every SI ligand to its 2025 Kraken row, by structure, and verify it.
+"""Join each SI ligand with its 2025 Kraken row, by structure, and verify it:
 
-Each SI row carries a 2021 Kraken ID. The crosswalk (step 3) maps it to the 2025 row holding the same
+Each SI row carries a 2021 Kraken ID. The crosswalk maps it to the 2025 row holding the same
 structure; the SI's own %V_bur(min) and %V_bur(Boltz) must then agree with that row to 0.1. Rows that
 fail either step are excluded with a reason, and the run stops if any dataset's match rate falls below
 min_match_rate in config.yaml, because unmatched ligands are rarely a random sample.
