@@ -1,4 +1,4 @@
-"""Step 4: extract every yield and threshold table from the two SI PDFs.
+"""Extract each yield and threshold table from the two SI PDFs.
 
 Outputs (not committed: the SI tables are covered by the publishers' terms)
   data/interim/si_yields.csv        one row per (dataset, ligand)
@@ -7,7 +7,7 @@ Outputs (not committed: the SI tables are covered by the publishers' terms)
 Committed
   results/tables/si_extraction_report.csv   row counts per table against expectations
 
-Text comes from `pdftotext -layout` (poppler: `brew install poppler` on a Mac).
+Text comes from `pdftotext -layout` (`brew install poppler`).
 Rows are split on runs of 2+ spaces: first field the Kraken ID, last k fields the values,
 anything between them the ligand name. Names that wrap onto neighbouring lines leave the
 ID row without a name; the name is rebuilt from the fragments above and below it.
