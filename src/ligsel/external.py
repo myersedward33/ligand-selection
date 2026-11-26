@@ -1,8 +1,8 @@
-"""Step 23: score the frozen models ONCE on JACS 2022 Reaction III (hypothesis H5, section 8a).
+"""Score the frozen models ONCE on JACS 2022 Reaction III (H5):
 
 Refuses to run unless the `frozen` tag exists, this file and models/frozen_ni_pool.json are unchanged
 since that tag, the data files match the checksums frozen with the model, and the result has not
-already been written. Rerunning after a result exists is a deviation, not a retry.
+already been written.
 
 Scored: the frozen elastic net, the %V_bur(min) threshold refitted on the Ni pool, and the published
 threshold (31.89, as JACS 2022 Table S4 applied it to Reaction III). Subsets: all 43 ligands (primary),
