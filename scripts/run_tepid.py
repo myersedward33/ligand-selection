@@ -1,8 +1,8 @@
-"""Step 11 helper: predict Tolman electronic parameters with the published TEPid model.
+"""Predicting Tolman electronic parameters with the published TEPid model:
 
 TEPid (Stevens et al., ChemRxiv 2023, https://github.com/DanielEss-lab/TEPid) ships a pickled
 LightGBM model that needs its own pinned environment, so this script runs under a separate
-interpreter, never the project's:
+interpreter, not the project's:
 
     python3 -m venv ~/venv-tepid
     ~/venv-tepid/bin/pip install "numpy<1.24" pandas==1.5.3 scikit-learn==1.2.2 lightgbm==3.3.5 rdkit==2023.3.2 openpyxl==3.1.2
@@ -12,8 +12,9 @@ interpreter, never the project's:
 Input: data/processed/kraken_2025.csv.gz. Outputs: data/processed/tepid.csv (kraken_id, tep_cm1), and
 data/processed/tepid_reference.csv: TEPid's own DFT reference set with the model's predictions beside
 its DFT values, so Kraken can be compared with the reference like for like (prediction vs prediction).
-TEP is used only to describe the library, never as a model feature (pre-registration, scope lock).
+TEP is used only to describe the library, never as a model feature.
 """
+
 import pickle
 import sys
 import warnings
