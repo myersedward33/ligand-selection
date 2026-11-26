@@ -1,4 +1,4 @@
-"""Step 20b: negative controls and hypothesis H4.
+"""Negative controls and hypothesis H4:
 
 Controls (no published threshold): cliffs RS2, RS3, XIII, XIV and JACS 2022 IV. None meets the
 pre-registered size rule for multivariate fits (n >= 30 and >= 10 in the smaller class), so, as in
