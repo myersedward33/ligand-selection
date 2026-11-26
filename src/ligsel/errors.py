@@ -1,4 +1,4 @@
-"""Step 24: which ligands do the models get wrong, and do the failures form a chemical class?
+"""Which ligands do the models get wrong, and do the failures form a chemical class?
 
 Per-ligand out-of-fold predictions are not stored by the ladder, so they are recomputed here for the
 two models that matter: the primary elastic net ('all' view) and baseline_cv, leave-one-ligand-out,
