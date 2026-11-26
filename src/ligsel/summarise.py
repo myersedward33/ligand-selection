@@ -1,4 +1,4 @@
-"""Score the pre-registered hypotheses H1-H3 from results/tables/ladder_per_dataset.csv.
+"""Score H1-H3 from results/tables/ladder_per_dataset.csv:
 
 H1  elastic-net ('all' view) beats the cross-validated baseline by >= 0.10 MCC (LOO) on a majority
     of the eligible primary datasets; also reported without VII, VIII and IX (deviation log, 23 Nov).
