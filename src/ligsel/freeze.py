@@ -1,4 +1,4 @@
-"""Step 22: fit the model for the external test and freeze it (pre-registration section 8a).
+"""Fit the model for the external test and freeze it:
 
 Trains on the Ni pool (cliffs I-V), every included ligand labelled at its own dataset's cutoff; a
 ligand tested in several reactions contributes one row per reaction. The elastic net is the
