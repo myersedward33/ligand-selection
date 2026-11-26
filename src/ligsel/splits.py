@@ -1,10 +1,10 @@
-"""Step 18: validation split strategies, pooled models and the ligand-overlap check.
+"""Validation split strategies, pooled models and the ligand-overlap check:
 
 Per dataset (the eleven primary datasets):
   loo, rep5x5         from step 17 (results/tables/ladder_per_dataset.csv)
   leave_class_out     hold out one ligand class at a time (classes below)
 
-Pooled (pre-registration s. 6). Pools: all eleven (with a Ni/Pd indicator feature, as the
+Pooled, Pools: all eleven (with a Ni/Pd indicator feature, as the
 pre-registration states the pool), and, added in step 18 before any pooled result was seen, the Ni
 pool (I-V) and the Pd pool (VII-XII) separately, because the published thresholds point in opposite
 directions on the two metals and a single linear model cannot represent that:
