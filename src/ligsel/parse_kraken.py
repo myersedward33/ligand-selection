@@ -1,12 +1,12 @@
-"""Step 3: parse Kraken, convert buried volume to percent, tag columns, build the ID crosswalk.
+"""Parse Kraken, convert buried volume to percent, tag columns, build the ID crosswalk:
 
-Outputs
+Outputs:
   data/processed/kraken_2025.csv.gz        2025 descriptors + identifiers + %V_bur columns
   data/processed/kraken_2021.csv.gz        2021 descriptors + identifiers (the SI's ID key)
   data/processed/kraken_crosswalk.csv      every 2021 ID mapped to its 2025 row by structure
   results/tables/descriptor_families.csv   each of the 190 columns: property, summary, family
 
-Traps handled here (see the workflow doc):
+Potential traps handled here:
   * vbur_vbur_* is buried volume in cubic angstroms inside a 3.5 A sphere, not percent.
   * 55 Kraken IDs point to different molecules in 2021 and 2025, so IDs are never
     joined across releases: structures are.
