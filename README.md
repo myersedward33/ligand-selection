@@ -36,7 +36,7 @@ notebooks/         exploration only, never the source of a result
 
 ## Credit
 
-The descriptors and reaction data are other people's work: Kraken (Gensch et
+The descriptors and reaction data are the work of others: Kraken (Gensch et
 al., *JACS* 2022), the reactivity-cliffs study (Newman-Stonebraker et al.,
 *Science* 2021) and its follow-up (*JACS* 2022). This repository's contribution
-is the comparative analysis. Code is MIT licensed; data is not redistributed.
+is the comparative analysis. The code is MIT licensed and the data is not redistributed.
