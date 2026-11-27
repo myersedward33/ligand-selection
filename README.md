@@ -1,13 +1,6 @@
 # ligand-selection
 
-**Question.** Across eleven Ni- and Pd-catalysed cross-coupling datasets, one
-steric descriptor, %V_bur(min), separates active from inactive monodentate
-phosphines (Newman-Stonebraker et al., *Science* 2021). Does a multivariate
-model over Kraken's full 190-descriptor set do better, and if so, which
-descriptors carry the extra signal?
-
-**Status.** In progress, December 2026. Results and the writeup land here when
-the analysis is complete.
+**Question.** Across the reactivity-cliffs datasets in Univariate Classification of Phosphine Ligation State and Reactivity in Cross-Coupling Catalysis, a single steric descriptor, %V_bur(min), classifies monodentate phosphines as active or inactive at a threshold near 32% (Newman-Stonebraker, 2021). Does a multivariate model over Kraken's 190 DFT descriptors classify this threshold better, and if so, which descriptors carry the extra signal
 
 ## Run it
 
