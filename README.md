@@ -1,6 +1,6 @@
 # ligand-selection
 
-**Question.** Across the reactivity-cliffs datasets in Univariate Classification of Phosphine Ligation State and Reactivity in Cross-Coupling Catalysis, a single steric descriptor, %V_bur(min), classifies monodentate phosphines as active or inactive at a threshold near 32% (Newman-Stonebraker, 2021). Does a multivariate model over Kraken's 190 DFT descriptors classify this threshold better, and if so, which descriptors carry the extra signal
+**Question.** Across the reactivity-cliffs datasets in *Univariate Classification of Phosphine Ligation State and Reactivity in Cross-Coupling Catalysis*, a single steric descriptor, %V_bur(min), classifies monodentate phosphines as active or inactive at a threshold near 32% (Newman-Stonebraker, 2021). Does a multivariate model over Kraken's 190 DFT descriptors classify this threshold better, and if so, which descriptors carry the extra signal
 
 ## Run it
 
@@ -29,7 +29,4 @@ notebooks/         exploration only, never the source of a result
 
 ## Credit
 
-The descriptors and reaction data are the work of others: Kraken (Gensch et
-al., *JACS* 2022), the reactivity-cliffs study (Newman-Stonebraker et al.,
-*Science* 2021) and its follow-up (*JACS* 2022). This repository's contribution
-is the comparative analysis. The code is MIT licensed and the data is not redistributed.
+The descriptors and reaction data are the work of others: Kraken (Gensch, 2022), the reactivity-cliffs study (Newman-Stonebraker, 2021) and its follow-up (Newman-Stonebraker, 2022). This repository's contribution is the comparative analysis. The code is MIT licensed and the data is not redistributed.
